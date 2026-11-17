@@ -11,7 +11,7 @@ def compute_xlim(data:pd.DataFrame, sets:list[str], padL:float=0.025, padR:float
     Define left (*padL*) and right (*padR*) margin padding as fractions of the x-axis
     '''
 
-    cols = [f"logfc.{s}" for s in sets]
+    cols = [f"{s}.logfc" for s in sets]
     maxFC = data[cols].max(axis=None)
     minFC = data[cols].min(axis=None)
     
@@ -28,7 +28,7 @@ def compute_ylim(data:pd.DataFrame, sets:list[str], padT:float=0.025, padB:float
     Define top (*padT*) and bottom (*padB*) margin padding as fractions of the y-axis
     '''
 
-    maxP = data[[f"nlogp.{s}" for s in sets]].replace(np.inf, np.nan).max(axis=None)
+    maxP = data[[f"{s}.nlogp" for s in sets]].replace(np.inf, np.nan).max(axis=None)
     yrng = maxP / (1 - (padB + padT))
 
     ymin = maxP - (yrng * (1 - padT))
@@ -150,8 +150,8 @@ def draw_volcano(data:pd.DataFrame, sets:list[str], title:str,
         color, label = palette[elt]
 
         # coordinates
-        x = data[f"logfc.{elt}"].values
-        y = data[f"nlogp.{elt}"].values
+        x = data[f"{elt}.logfc"].values
+        y = data[f"{elt}.nlogp"].values
 
         # colors
         ec = [color if ((p > nlogp_thresh) and (abs(fc) > logfc_thresh)) 

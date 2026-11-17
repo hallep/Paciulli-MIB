@@ -1,4 +1,4 @@
-''' Code to generate supplementary tables and figures '''
+''' Code to get data for figure S1 '''
 
 from mib.external import os, pd, np
 from mib.utils.constants import *
@@ -151,7 +151,7 @@ def get_grouped(df:pd.DataFrame, name:str) -> pd.DataFrame:
                       df["day"].astype(str).str.rjust(2, "0")).apply(pd.to_datetime)
 
     grp = df.groupby(["date", "camera"]).size().reset_index()
-    grp["day"] = grp["date"].dt.day
+    grp["day"] = grp["date"].dt.strftime("%b") + grp["date"].dt.day.astype(str)
     grp = grp.set_index(["day", "camera"])[0]
     grp.name = name
     return grp
@@ -168,4 +168,6 @@ s4 = pd.concat([
 ], axis=1).fillna(0).astype(int).T
 
 s4.columns.names = [None, None]
+s4.index.name = "filter"
+
 s4.to_csv(f"{PROJECT_DIR}/analysis/supplement/table_S4.tsv", sep="\t")

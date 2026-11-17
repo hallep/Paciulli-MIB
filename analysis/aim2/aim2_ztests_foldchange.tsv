@@ -1,4 +1,4 @@
-behavior	Jun6	Jun7	Jun8	agg	prop.Jun6	prop.Jun7	prop.Jun8	zscore.Jun6.v.Jun7	pval.Jun6.v.Jun7	fc.Jun6.v.Jun7	nlogp.Jun6.v.Jun7	logfc.Jun6.v.Jun7	zscore.Jun6.v.Jun8	pval.Jun6.v.Jun8	fc.Jun6.v.Jun8	nlogp.Jun6.v.Jun8	logfc.Jun6.v.Jun8	zscore.Jun7.v.Jun8	pval.Jun7.v.Jun8	fc.Jun7.v.Jun8	nlogp.Jun7.v.Jun8	logfc.Jun7.v.Jun8
+behavior	Jun6	Jun7	Jun8	agg	Jun6.prop	Jun7.prop	Jun8.prop	Jun6.v.Jun7.zscore	Jun6.v.Jun7.pval	Jun6.v.Jun7.fc	Jun6.v.Jun7.nlogp	Jun6.v.Jun7.logfc	Jun6.v.Jun8.zscore	Jun6.v.Jun8.pval	Jun6.v.Jun8.fc	Jun6.v.Jun8.nlogp	Jun6.v.Jun8.logfc	Jun7.v.Jun8.zscore	Jun7.v.Jun8.pval	Jun7.v.Jun8.fc	Jun7.v.Jun8.nlogp	Jun7.v.Jun8.logfc
 Carrying (mother)	0	0	0	0	0	0	0	NA	NA	1	NA	0	NA	NA	1	NA	0	NA	NA	1	NA	0
 Constructing Nest	0	0	0	0	0	0	0	NA	NA	1	NA	0	NA	NA	1	NA	0	NA	NA	1	NA	0
 Drinking	0	0	0	0	0	0	0	NA	NA	1	NA	0	NA	NA	1	NA	0	NA	NA	1	NA	0

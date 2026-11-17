@@ -23,9 +23,9 @@ rownames(budget) = budget$behavior
 
 # proportions
 for (d in DATES) {
-    budget[, paste("prop", d, sep = ".")] = budget[, d] / sum(budget[, d])
+    budget[, paste(d, "prop", sep = ".")] = budget[, d] / sum(budget[, d])
 }
-budget$prop.agg = budget$agg / sum(budget$agg)
+budget$agg.prop = budget$agg / sum(budget$agg)
 
 # ===== Run Tests ===== #
 
@@ -35,10 +35,10 @@ pseudo = 1e-12
 # for each day:
 for (d in DATES) {
 
-    cP = paste("pval", d, sep = ".")
-    cLP = paste("nlogp", d, sep = ".")
-    cFC = paste("fc", d, sep = ".")
-    cLFC = paste("logfc", d, sep = ".")
+    cP = paste(d, "pval", sep = ".")
+    cLP = paste(d, "nlogp", sep = ".")
+    cFC = paste(d, "fc", sep = ".")
+    cLFC = paste(d, "logfc", sep = ".")
 
     # for each behavior:
     for (b in rownames(budget)) {
@@ -49,7 +49,7 @@ for (d in DATES) {
 
         # (A) Z-test
         ztest = prop.test(x = x, n = n, alternative = "two.sided", correct = FALSE)
-        budget[b, paste("zscore", d, sep = ".")] = sqrt(ztest$statistic)
+        budget[b, paste(d, "zscore", sep = ".")] = sqrt(ztest$statistic)
         budget[b, cP] = ztest$p.value
 
         # (B) Fold-change
@@ -61,7 +61,7 @@ for (d in DATES) {
 }
 
 # save results
-results.path = paste(anal.dir, "aim1.tsv", sep = "/")
+results.path = paste(anal.dir, "aim1_ztests_foldchange.tsv", sep = "/")
 write.table(budget, file = results.path, quote = FALSE, sep = "\t", row.names = FALSE)
 
 # ===== Results ===== #

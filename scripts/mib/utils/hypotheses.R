@@ -4,8 +4,10 @@
 
 # get actions with significant differences
 get.significant = function(budget, set, groups, sig.p = 0.05, sig.fc = log2(1.5), out.path = NA) {
-    raw = c(groups, paste("prop", groups, sep = "."))
-    res = paste(c("zscore", "pval", "nlogp", "fc", "logfc"), set, sep = ".")
+
+    # column names
+    raw = c(groups, paste(groups, "prop", sep = "."))
+    res = paste(set, c("zscore", "pval", "nlogp", "fc", "logfc"), sep = ".")
     cZ = res[2]
     cFC = res[4]
 

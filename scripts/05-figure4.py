@@ -10,7 +10,7 @@ os.makedirs(f"{PROJECT_DIR}/analysis/figures", exist_ok=True)
 # load results
 aim2 = pd.read_csv(f"{PROJECT_DIR}/analysis/aim2/aim2_ztests_foldchange.tsv", sep="\t")
 
-prop_cols = [f"prop.{d}" for d in DAY_SETS]
+prop_cols = [f"{d}.prop" for d in DAY_SETS]
 pval_thresh = 0.05 / (3 * 20)
 fc_thresh = 1.5
 

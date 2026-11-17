@@ -9,7 +9,7 @@ os.makedirs(f"{PROJECT_DIR}/analysis/figures", exist_ok=True)
 # ===== Figure 2 ===== #
 
 # load results
-aim1 = pd.read_csv(f"{PROJECT_DIR}/analysis/aim1/aim1.tsv", sep="\t")
+aim1 = pd.read_csv(f"{PROJECT_DIR}/analysis/aim1/aim1_ztests_foldchange.tsv", sep="\t")
 
 aim1_annots = {
     "Feeding" : {

@@ -8,8 +8,8 @@ def get_significant(data:pd.DataFrame, sets:list[str], nlogp_thresh:float, logfc
     
     # stack sets
     signif = pd.concat(
-        [data[["behavior", f"nlogp.{s}", f"logfc.{s}"]].rename(
-            columns={f"nlogp.{s}" : "nlogp", f"logfc.{s}" : "logfc"}
+        [data[["behavior", f"{s}.nlogp", f"{s}.logfc"]].rename(
+            columns={f"{s}.nlogp" : "nlogp", f"{s}.logfc" : "logfc"}
         ) for s in sets], axis=0, keys=sets, names=["set", "idx"]
     ).reset_index(level=0)
 
@@ -43,8 +43,8 @@ def get_cld(data:pd.DataFrame, sets:list, nlogp_thresh:float, logfc_thresh:float
                 p1, p2 = min(i, j), max(i, j)
 
                 # is significant?
-                p = data.at[l, f"nlogp.{sets[p1]}.v.{sets[p2]}"]
-                fc = data.at[l, f"logfc.{sets[p1]}.v.{sets[p2]}"]
+                p = data.at[l, f"{sets[p1]}.v.{sets[p2]}.nlogp"]
+                fc = data.at[l, f"{sets[p1]}.v.{sets[p2]}.logfc"]
                 s = (p > nlogp_thresh) and (abs(fc) > logfc_thresh)
 
                 # matrix

@@ -26,7 +26,7 @@ rownames(budget) = budget$behavior
 
 # proportions
 for (d in DATES) {
-    budget[, paste("prop", d, sep = ".")] = budget[, d] / sum(budget[, d])
+    budget[, paste(d, "prop", sep = ".")] = budget[, d] / sum(budget[, d])
 }
 
 # pairwise comparisons
@@ -41,9 +41,11 @@ sig.dist = alpha / length(DATES)
 
 dist.res = data.frame(
     pair = pairs, 
+    n.nonzero = numeric(length(pairs)),
     chisq.stat = numeric(length(pairs)),
     chisq.df = numeric(length(pairs)),
     chisq.pval = numeric(length(pairs)),
+    chisq.logp = numeric(length(pairs)),
     fishers.pval = numeric(length(pairs)),
     row.names = pairs
 )
@@ -55,13 +57,17 @@ for (i in 1:ncol(combns)) {
 
     # contingency table
     cont.table = as.matrix(budget[, c(d1, d2)])
+    nonzero.cont = cont.table[rowSums(cont.table) > 0, ]
 
     # (A) Chi-square test of homogeneity
-    x2 = chisq.test(cont.table[rowSums(cont.table) > 0, ])
+    x2 = chisq.test(nonzero.cont)
+    dist.res[pairs[i], "n.nonzero"] = nrow(nonzero.cont)
     dist.res[pairs[i], "chisq.stat"] = x2$statistic
     dist.res[pairs[i], "chisq.df"] = x2$parameter
     dist.res[pairs[i], "chisq.pval"] = x2$p.value
-    x2$p.value
+
+    logp = pchisq(q = x2$statistic, df = x2$parameter, lower.tail = FALSE, log.p = TRUE)
+    dist.res[pairs[i], "chisq.logp"] = logp
 
     # (B) Fisher's Exact Test
     ft = fisher.test(cont.table, simulate.p.value = TRUE, B = 1e4)
@@ -88,10 +94,10 @@ for (i in 1:ncol(combns)) {
         next
     }
 
-    cP = paste("pval", r, sep = ".")
-    cLP = paste("nlogp", r, sep = ".")
-    cFC = paste("fc", r, sep = ".")
-    cLFC = paste("logfc", r, sep = ".")
+    cP = paste(r, "pval", sep = ".")
+    cLP = paste(r, "nlogp", sep = ".")
+    cFC = paste(r, "fc", sep = ".")
+    cLFC = paste(r, "logfc", sep = ".")
 
     # For each behavior:
     for (b in rownames(budget)) {
@@ -101,7 +107,7 @@ for (i in 1:ncol(combns)) {
 
         # (A) Z-test
         ztest = prop.test(x = x, n = n, alternative = "two.sided", correct = FALSE)
-        budget[b, paste("zscore", r, sep = ".")] = sqrt(ztest$statistic)
+        budget[b, paste(r, "zscore", sep = ".")] = sqrt(ztest$statistic)
         budget[b, cP] = ztest$p.value
 
         # (B) Fold-change
@@ -115,3 +121,29 @@ for (i in 1:ncol(combns)) {
 # save results
 results.path = paste(anal.dir, "aim2_ztests_foldchange.tsv", sep = "/")
 write.table(budget, file = results.path, quote = FALSE, sep = "\t", row.names = FALSE)
+
+# ===== Results ===== #
+
+# p-value
+m = nrow(dist.res[dist.res$chisq.pval < sig.dist, ]) * nrow(budget)
+sig.z = alpha / m
+
+# fold-change
+fc.th = 1.5
+sig.fc = log2(fc.th)
+
+# for each pair:
+for (i in 1:ncol(combns)) {
+
+    # not significantly different
+    if (dist.res[pairs[i], "chisq.pval"] >= sig.dist) {
+        next
+    }
+
+    file.name = paste("aim2_significant_", pairs[i], ".tsv", sep = "")
+    get.significant(
+        budget, set = pairs[i], groups = combns[, i], 
+        sig.p = sig.z, sig.fc = sig.fc, 
+        out.path = paste(anal.dir, file.name, sep = "/")
+    )
+}
