@@ -1,0 +1,587 @@
+entry_idx	video_file	date	camera	video_start_time	video_end_time	FA	action	sampling_time_mmss	action_start_timecode	action_end_timecode	location
+5402	M4208_ch2_main_20170609164704_20170609164718	2017-06-08	Nest Box X	2017-06-09 16:47:04	2017-06-09 16:47:18	Mother (Medusa)	Sleeping				Inside nest box
+5420	M4208_ch2_main_20170609165142_20170609165157	2017-06-08	Nest Box X	2017-06-09 16:51:42	2017-06-09 16:51:57	Mother (Medusa)	Sleeping				Inside nest box
+3628	M4208_ch1_main_20170608123705_20170608124354	2017-06-07	Center	2017-06-08 12:37:05	2017-06-08 12:43:54	Mother (Medusa)	Travelling (moving outside nest box)	00:00	0:29	0:31	Outside nest box
+3122	M4208_ch3_main_20170607091443_20170607091727	2017-06-06	Nest Box Z	2017-06-07 09:14:43	2017-06-07 09:17:27	Mother (Medusa)	Hand auto-grooming		0:01	0:09	Inside nest box
+5483	M4208_ch2_main_20170609174228_20170609174508	2017-06-08	Nest Box X	2017-06-09 17:42:28	2017-06-09 17:45:08	Mother (Medusa)	Resting	42:30			Inside nest box
+3123	M4208_ch3_main_20170607091727_20170607091743	2017-06-06	Nest Box Z	2017-06-07 09:17:27	2017-06-07 09:17:43	Mother (Medusa)	Resting	17:30	0:00	0:16	Inside nest box
+3179	M4208_ch3_main_20170607093621_20170607093827	2017-06-06	Nest Box Z	2017-06-07 09:36:21	2017-06-07 09:38:27	Mother (Medusa)	Resting	37:30			Inside nest box
+5521	M4208_ch2_main_20170609181200_20170609181233	2017-06-08	Nest Box X	2017-06-09 18:12:00	2017-06-09 18:12:33	Mother (Medusa)	Moving (inside nest box)			Inside nest box	
+3109	M4208_ch3_main_20170607091007_20170607091036	2017-06-06	Nest Box Z	2017-06-07 09:10:07	2017-06-07 09:10:36	Mother (Medusa)	Hand auto-grooming		0:01	0:10	Inside nest box
+5490	M4208_ch2_main_20170609174607_20170609180635	2017-06-08	Nest Box X	2017-06-09 17:46:07	2017-06-09 18:06:35	Mother (Medusa)	Sleeping	47:30			Inside nest box
+3180	M4208_ch3_main_20170607093828_20170607094153	2017-06-06	Nest Box Z	2017-06-07 09:38:28	2017-06-07 09:41:53	Mother (Medusa)	Hand auto-grooming		0:00	0:59	Inside nest box
+3116	M4208_ch3_main_20170607091105_20170607091443	2017-06-06	Nest Box Z	2017-06-07 09:11:05	2017-06-07 09:14:43	Mother (Medusa)	Sleeping	12:30	0:00	3:35	Inside nest box
+3636	M4208_ch1_main_20170608124903_20170608124916	2017-06-07	Center	2017-06-08 12:49:03	2017-06-08 12:49:16	Mother (Medusa)	Mouth auto-grooming		00:00	00:08	Outside nest box
+5117	M4208_ch2_main_20170609133959_20170609134013	2017-06-08	Nest Box X	2017-06-09 13:39:59	2017-06-09 13:40:13	Mother (Medusa)	Observing	40:00	0:04	0:14	Inside nest box
+5259	M4208_ch2_main_20170609144442_20170609144545	2017-06-08	Nest Box X	2017-06-09 14:44:42	2017-06-09 14:45:45	Mother (Medusa)	Moving (inside nest box)			Inside nest box	
+3126	M4208_ch3_main_20170607091743_20170607091801	2017-06-06	Nest Box Z	2017-06-07 09:17:43	2017-06-07 09:18:01	Mother (Medusa)	Hand auto-grooming		0:00	0:17	Inside nest box
+3148	M4208_ch3_main_20170607092536_20170607092741	2017-06-06	Nest Box Z	2017-06-07 09:25:36	2017-06-07 09:27:41	Mother (Medusa)	Resting	27:30			Inside nest box
+3164	M4208_ch3_main_20170607093217_20170607093311	2017-06-06	Nest Box Z	2017-06-07 09:32:17	2017-06-07 09:33:11	Mother (Medusa)	Resting	32:30			Inside nest box
+3159	M4208_ch3_main_20170607092934_20170607093217	2017-06-06	Nest Box Z	2017-06-07 09:29:34	2017-06-07 09:32:17	Mother (Medusa)	Sleeping	30:00	0:00	2:41	Inside nest box
+3129	M4208_ch3_main_20170607091801_20170607091803	2017-06-06	Nest Box Z	2017-06-07 09:18:01	2017-06-07 09:18:03	Mother (Medusa)	Hand auto-grooming		0:00	0:02	Inside nest box
+3170	M4208_ch3_main_20170607093328_20170607093535	2017-06-06	Nest Box Z	2017-06-07 09:33:28	2017-06-07 09:35:35	Mother (Medusa)	Hand auto-grooming		0:00	0:08	Inside nest box
+3132	M4208_ch3_main_20170607091804_20170607091913	2017-06-06	Nest Box Z	2017-06-07 09:18:04	2017-06-07 09:19:13	Mother (Medusa)	Hand auto-grooming		0:00	0:50	Inside nest box
+3137	M4208_ch3_main_20170607091914_20170607092319	2017-06-06	Nest Box Z	2017-06-07 09:19:14	2017-06-07 09:23:19	Mother (Medusa)	Resting	20:00			Inside nest box
+3141	M4208_ch3_main_20170607092347_20170607092520	2017-06-06	Nest Box Z	2017-06-07 09:23:47	2017-06-07 09:25:20	Mother (Medusa)	Sleeping	25:00	0:00	1:32	Inside nest box
+4143	M4208_ch2_main_20170608134513_20170608142000	2017-06-07	Nest Box X	2017-06-08 13:45:13	2017-06-08 14:20:00	Mother (Medusa)	Out of Sight			Outside nest box	
+3061	M4208_ch3_main_20170607085412_20170607090218	2017-06-06	Nest Box Z	2017-06-07 08:54:12	2017-06-07 09:02:18	Mother (Medusa)	Mouth auto-grooming		6:31	6:44	Inside nest box
+5033	M4208_ch2_main_20170609123905_20170609124239	2017-06-08	Nest Box X	2017-06-09 12:39:05	2017-06-09 12:42:39	Mother (Medusa)	Resting	40:00	0:00	3:32	Inside nest box
+4337	M4208_ch3_main_20170608100000_20170608103000	2017-06-07	Nest Box Z	2017-06-08 10:00:00	2017-06-08 10:30:00	Mother (Medusa)	Out of Sight	10:00			Outside nest box
+3028	M4208_ch3_main_20170607083251_20170607083518	2017-06-06	Nest Box Z	2017-06-07 08:32:51	2017-06-07 08:35:18	Mother (Medusa)	Sleeping	35:00	083250	083517	Inside nest box
+5038	M4208_ch2_main_20170609124356_20170609130000	2017-06-08	Nest Box X	2017-06-09 12:43:56	2017-06-09 13:00:00	Mother (Medusa)	Sleeping	45:00	0:00	15:53	Inside nest box
+5042	M4208_ch2_main_20170609130000_20170609130531	2017-06-08	Nest Box X	2017-06-09 13:00:00	2017-06-09 13:05:31	Mother (Medusa)	Sleeping	00:00	0:00	5:27	Inside nest box
+3037	M4208_ch3_main_20170607083707_20170607083750	2017-06-06	Nest Box Z	2017-06-07 08:37:07	2017-06-07 08:37:50	Mother (Medusa)	Mouth auto-grooming		083711	083734	Inside nest box
+5027	M4208_ch2_main_20170609123119_20170609123241	2017-06-08	Nest Box X	2017-06-09 12:31:19	2017-06-09 12:32:41	Mother (Medusa)	Resting	32:30			Inside nest box
+3024	M4208_ch3_main_20170607083118_20170607083231	2017-06-06	Nest Box Z	2017-06-07 08:31:18	2017-06-07 08:32:31	Mother (Medusa)	Sleeping	32:30			Inside nest box
+5454	M4208_ch2_main_20170609171230_20170609172007	2017-06-08	Nest Box X	2017-06-09 17:12:30	2017-06-09 17:20:07	Mother (Medusa)	Resting	15:00			Inside nest box
+3010	M4208_ch3_main_20170607082840_20170607083001	2017-06-06	Nest Box Z	2017-06-07 08:28:40	2017-06-07 08:30:01	Mother (Medusa)	Sleeping		082839	082959	Inside nest box
+3581	M4208_ch1_main_20170608100000_20170608103000	2017-06-07	Center	2017-06-08 10:00:00	2017-06-08 10:30:00	Mother (Medusa)	Out of Sight	10:00			Inside nest box
+5458	M4208_ch2_main_20170609172052_20170609173849	2017-06-08	Nest Box X	2017-06-09 17:20:52	2017-06-09 17:38:49	Mother (Medusa)	Sleeping	22:30			Inside nest box
+5466	M4208_ch2_main_20170609174010_20170609174023	2017-06-08	Nest Box X	2017-06-09 17:40:10	2017-06-09 17:40:23	Mother (Medusa)	Mouth auto-grooming		00:00	00:08	Inside nest box
+5085	M4208_ch2_main_20170609133117_20170609133602	2017-06-08	Nest Box X	2017-06-09 13:31:17	2017-06-09 13:36:02	Mother (Medusa)	Sleeping	32:30			Inside nest box
+3087	M4208_ch3_main_20170607090642_20170607090749	2017-06-06	Nest Box Z	2017-06-07 09:06:42	2017-06-07 09:07:49	Mother (Medusa)	Hand auto-grooming		0:00	0:23	Inside nest box
+5423	M4208_ch2_main_20170609165157_20170609165246	2017-06-08	Nest Box X	2017-06-09 16:51:57	2017-06-09 16:52:46	Mother (Medusa)	Sleeping	52:30			Inside nest box
+5227	M4208_ch2_main_20170609143949_20170609144008	2017-06-08	Nest Box X	2017-06-09 14:39:49	2017-06-09 14:40:08	Mother (Medusa)	Feeding (mother)	40:00			Inside nest box
+5415	M4208_ch2_main_20170609164922_20170609165122	2017-06-08	Nest Box X	2017-06-09 16:49:22	2017-06-09 16:51:22	Mother (Medusa)	Resting	50:00			Inside nest box
+5239	M4208_ch2_main_20170609144159_20170609144310	2017-06-08	Nest Box X	2017-06-09 14:41:59	2017-06-09 14:43:10	Mother (Medusa)	Feeding (mother)	42:30	0:00	1:10	Inside nest box
+3103	M4208_ch3_main_20170607090837_20170607091007	2017-06-06	Nest Box Z	2017-06-07 09:08:37	2017-06-07 09:10:07	Mother (Medusa)	Sleeping	10:00	0:00	1:29	Inside nest box
+5426	M4208_ch2_main_20170609165302_20170609170514	2017-06-08	Nest Box X	2017-06-09 16:53:02	2017-06-09 17:05:14	Mother (Medusa)	Sleeping	55:00			Inside nest box
+5072	M4208_ch2_main_20170609132343_20170609133102	2017-06-08	Nest Box X	2017-06-09 13:23:43	2017-06-09 13:31:02	Mother (Medusa)	Resting	25:00	0:00	7:14	Inside nest box
+5061	M4208_ch2_main_20170609131757_20170609132328	2017-06-08	Nest Box X	2017-06-09 13:17:57	2017-06-09 13:23:28	Mother (Medusa)	Sleeping	17:30	0:00	13:23:26	Inside nest box
+3066	M4208_ch3_main_20170607090218_20170607090233	2017-06-06	Nest Box Z	2017-06-07 09:02:18	2017-06-07 09:02:33	Mother (Medusa)	Laying on back	02:30			Inside nest box
+5431	M4208_ch2_main_20170609170531_20170609170754	2017-06-08	Nest Box X	2017-06-09 17:05:31	2017-06-09 17:07:54	Mother (Medusa)	Sleeping	07:30			Inside nest box
+3078	M4208_ch3_main_20170607090330_20170607090524	2017-06-06	Nest Box Z	2017-06-07 09:03:30	2017-06-07 09:05:24	Mother (Medusa)	Sleeping	05:00	0:00	1:53	Inside nest box
+4299	M4208_ch3_main_20170608060001_20170608063000	2017-06-07	Nest Box Z	2017-06-08 06:00:01	2017-06-08 06:30:00	Mother (Medusa)	Out of Sight				Outside nest box
+3578	M4208_ch1_main_20170608093000_20170608100000	2017-06-07	Center	2017-06-08 09:30:00	2017-06-08 10:00:00	Mother (Medusa)	Out of Sight	10:00			Inside nest box
+5699	M4208_ch2_main_20170609183832_20170609184015	2017-06-08	Nest Box X	2017-06-09 18:38:32	2017-06-09 18:40:15	Mother (Medusa)	Moving (inside nest box)			Inside nest box	seems a bit restless, moving in box throughout video
+5318	M4208_ch2_main_20170609153446_20170609153509	2017-06-08	Nest Box X	2017-06-09 15:34:46	2017-06-09 15:35:09	Mother (Medusa)	Moving (inside nest box)			Inside nest box	
+5654	M4208_ch2_main_20170609183157_20170609183315	2017-06-08	Nest Box X	2017-06-09 18:31:57	2017-06-09 18:33:15	Mother (Medusa)	Resting	32:30			Inside nest box
+5327	M4208_ch2_main_20170609153708_20170609153857	2017-06-08	Nest Box X	2017-06-09 15:37:08	2017-06-09 15:38:57	Mother (Medusa)	Resting			Inside nest box	
+4173	M4208_ch2_main_20170608151232_20170608152548	2017-06-07	Nest Box X	2017-06-08 15:12:32	2017-06-08 15:25:48	Mother (Medusa)	Out of Sight			Outside nest box	
+3435	M4208_ch3_main_20170607204316_20170607204546	2017-06-06	Nest Box Z	2017-06-07 20:43:16	2017-06-07 20:45:46	Mother (Medusa)	Travelling (moving outside nest box)	00:00			Outside nest box
+3433	M4208_ch3_main_20170607204306_20170607204316	2017-06-06	Nest Box Z	2017-06-07 20:43:06	2017-06-07 20:43:16	Mother (Medusa)	Travelling (moving outside nest box)				Outside nest box
+3857	M4208_ch1_main_20170608152534_20170608152548	2017-06-07	Center	2017-06-08 15:25:34	2017-06-08 15:25:48	Mother (Medusa)	Foot auto-grooming	00:00	0:01	0:07	Outside nest box
+5171	M4208_ch2_main_20170609143459_20170609143505	2017-06-08	Nest Box X	2017-06-09 14:34:59	2017-06-09 14:35:05	Mother (Medusa)	Resting	35:00			Inside nest box
+3830	M4208_ch1_main_20170608150100_20170608150115	2017-06-07	Center	2017-06-08 15:01:00	2017-06-08 15:01:15	Mother (Medusa)	Foot auto-grooming		00:09	00:13	Outside nest box
+3832	M4208_ch1_main_20170608150116_20170608150142	2017-06-07	Center	2017-06-08 15:01:16	2017-06-08 15:01:42	Mother (Medusa)	Foot auto-grooming		00:05	00:15	Inside nest box
+3838	M4208_ch1_main_20170608150725_20170608150739	2017-06-07	Center	2017-06-08 15:07:25	2017-06-08 15:07:39	Mother (Medusa)	Foraging (mother)	00:00	0:00	0:07	Outside nest box
+3846	M4208_ch1_main_20170608151123_20170608151315	2017-06-07	Center	2017-06-08 15:11:23	2017-06-08 15:13:15	Mother (Medusa)	Travelling (moving outside nest box)	12:30			Inside nest box
+3852	M4208_ch1_main_20170608152143_20170608152519	2017-06-07	Center	2017-06-08 15:21:43	2017-06-08 15:25:19	Mother (Medusa)	Travelling (moving outside nest box)	00:00	0:00	0:13	Outside nest box
+5598	M4208_ch2_main_20170609182352_20170609182510	2017-06-08	Nest Box X	2017-06-09 18:23:52	2017-06-09 18:25:10	Mother (Medusa)	Resting	25:00			Inside nest box
+4193	M4208_ch2_main_20170608153821_20170608155029	2017-06-07	Nest Box X	2017-06-08 15:38:21	2017-06-08 15:50:29	Mother (Medusa)	Out of Sight			Outside nest box	
+3431	M4208_ch3_main_20170607204226_20170607204306	2017-06-06	Nest Box Z	2017-06-07 20:42:26	2017-06-07 20:43:06	Mother (Medusa)	Travelling (moving outside nest box)				Outside nest box
+3896	M4208_ch1_main_20170608153528_20170608153558	2017-06-07	Center	2017-06-08 15:35:28	2017-06-08 15:35:58	Mother (Medusa)	Foot auto-grooming		00:18	00:28	Outside nest box
+5342	M4208_ch2_main_20170609160000_20170609160300	2017-06-08	Nest Box X	2017-06-09 16:00:00	2017-06-09 16:03:00	Mother (Medusa)	Resting			Inside nest box	
+3965	M4208_ch1_main_20170608155804_20170608160638	2017-06-07	Center	2017-06-08 15:58:04	2017-06-08 16:06:38	Mother (Medusa)	Travelling (moving outside nest box)	00:00	0:29	0:55	Outside nest box
+3417	M4208_ch3_main_20170607203931_20170607203943	2017-06-06	Nest Box Z	2017-06-07 20:39:31	2017-06-07 20:39:43	Mother (Medusa)	Travelling (moving outside nest box)	00:00			Outside nest box
+3401	M4208_ch3_main_20170607203616_20170607203625	2017-06-06	Nest Box Z	2017-06-07 20:36:16	2017-06-07 20:36:25	Mother (Medusa)	Out of Sight	00:00			Outside nest box
+3415	M4208_ch3_main_20170607203855_20170607203931	2017-06-06	Nest Box Z	2017-06-07 20:38:55	2017-06-07 20:39:31	Mother (Medusa)	Travelling (moving outside nest box)	00:00			Outside nest box
+4136	M4208_ch2_main_20170608124826_20170608130534	2017-06-07	Nest Box X	2017-06-08 12:48:26	2017-06-08 13:05:34	Mother (Medusa)	Out of Sight			Outside nest box	
+5393	M4208_ch2_main_20170609164349_20170609164533	2017-06-08	Nest Box X	2017-06-09 16:43:49	2017-06-09 16:45:33	Mother (Medusa)	Resting	45:00			Inside nest box
+4148	M4208_ch2_main_20170608142101_20170608144629	2017-06-07	Nest Box X	2017-06-08 14:21:01	2017-06-08 14:46:29	Mother (Medusa)	Out of Sight			Outside nest box	
+4138	M4208_ch2_main_20170608130550_20170608132209	2017-06-07	Nest Box X	2017-06-08 13:05:50	2017-06-08 13:22:09	Mother (Medusa)	Mouth auto-grooming	01:28	01:59	Outside nest box	
+5357	M4208_ch2_main_20170609160428_20170609162150	2017-06-08	Nest Box X	2017-06-09 16:04:28	2017-06-09 16:21:50	Mother (Medusa)	Sleeping	05:00			Inside nest box
+4140	M4208_ch2_main_20170608132808_20170608132822	2017-06-07	Nest Box X	2017-06-08 13:28:08	2017-06-08 13:28:22	Mother (Medusa)	Travelling (moving outside nest box)	00:00	0:00	0:14	Outside nest box
+3409	M4208_ch3_main_20170607203727_20170607203731	2017-06-06	Nest Box Z	2017-06-07 20:37:27	2017-06-07 20:37:31	Mother (Medusa)	Travelling (moving outside nest box)	00:00			Outside nest box
+4142	M4208_ch2_main_20170608134457_20170608134513	2017-06-07	Nest Box X	2017-06-08 13:44:57	2017-06-08 13:45:13	Mother (Medusa)	Travelling (moving outside nest box)			Outside nest box	
+4129	M4208_ch2_main_20170608124106_20170608124120	2017-06-07	Nest Box X	2017-06-08 12:41:06	2017-06-08 12:41:20	Mother (Medusa)	Hand auto-grooming	00:00	00:14	Outside nest box	
+4130	M4208_ch2_main_20170608124120_20170608124137	2017-06-07	Nest Box X	2017-06-08 12:41:20	2017-06-08 12:41:37	Mother (Medusa)	Hand auto-grooming	00:00	00:05	Outside nest box	
+3395	M4208_ch3_main_20170607203531_20170607203546	2017-06-06	Nest Box Z	2017-06-07 20:35:31	2017-06-07 20:35:46	Mother (Medusa)	Travelling (moving outside nest box)	00:00			Outside nest box
+5339	M4208_ch2_main_20170609154007_20170609160000	2017-06-08	Nest Box X	2017-06-09 15:40:07	2017-06-09 16:00:00	Mother (Medusa)	Resting			Inside nest box	
+4131	M4208_ch2_main_20170608124137_20170608124152	2017-06-07	Nest Box X	2017-06-08 12:41:37	2017-06-08 12:41:52	Mother (Medusa)	Hand auto-grooming	00:05	00:15	Outside nest box	
+4132	M4208_ch2_main_20170608124152_20170608124351	2017-06-07	Nest Box X	2017-06-08 12:41:52	2017-06-08 12:43:51	Mother (Medusa)	Observing			Outside nest box	
+3746	M4208_ch1_main_20170608140845_20170608141002	2017-06-07	Center	2017-06-08 14:08:45	2017-06-08 14:10:02	Mother (Medusa)	Feeding (mother)	00:00	0:08	1:04	Outside nest box
+3229	M4208_ch3_main_20170607101551_20170607101858	2017-06-06	Nest Box Z	2017-06-07 10:15:51	2017-06-07 10:18:58	Mother (Medusa)	Travelling (moving outside nest box)	17:30	0:00	3:04	Outside nest box
+3238	M4208_ch3_main_20170607101935_20170607102053	2017-06-06	Nest Box Z	2017-06-07 10:19:35	2017-06-07 10:20:53	Mother (Medusa)	Travelling (moving outside nest box)	20:00	0:00	1:17	Outside nest box
+5136	M4208_ch2_main_20170609140200_20170609141712	2017-06-08	Nest Box X	2017-06-09 14:02:00	2017-06-09 14:17:12	Mother (Medusa)	Sleeping	00:00	0:00	15:01	Inside nest box
+5141	M4208_ch2_main_20170609141712_20170609141807	2017-06-08	Nest Box X	2017-06-09 14:17:12	2017-06-09 14:18:07	Mother (Medusa)	Sleeping	15:00	0:00	0:54	Inside nest box
+5274	M4208_ch2_main_20170609144724_20170609144757	2017-06-08	Nest Box X	2017-06-09 14:47:24	2017-06-09 14:47:57	Mother (Medusa)	Hand auto-grooming	47:30	0:24	0:29	Inside nest box
+3247	M4208_ch3_main_20170607102140_20170607103110	2017-06-06	Nest Box Z	2017-06-07 10:21:40	2017-06-07 10:31:10	Mother (Medusa)	Travelling (moving outside nest box)	22:30	0:00	9:24	Outside nest box
+3185	M4208_ch3_main_20170607094154_20170607094427	2017-06-06	Nest Box Z	2017-06-07 09:41:54	2017-06-07 09:44:27	Mother (Medusa)	Mouth auto-grooming		0:00	1:04	Inside nest box
+5121	M4208_ch2_main_20170609134014_20170609140000	2017-06-08	Nest Box X	2017-06-09 13:40:14	2017-06-09 14:00:00	Mother (Medusa)	Sleeping	42:30	0:00	19:33	Inside nest box
+3721	M4208_ch1_main_20170608135449_20170608135504	2017-06-07	Center	2017-06-08 13:54:49	2017-06-08 13:55:04	Mother (Medusa)	Feeding (mother)	00:00	0:04	0:15	Outside nest box
+3723	M4208_ch1_main_20170608135504_20170608135752	2017-06-07	Center	2017-06-08 13:55:04	2017-06-08 13:57:52	Mother (Medusa)	Feeding (mother)	00:00	0:00	2:44	Outside nest box
+3194	M4208_ch3_main_20170607094455_20170607094615	2017-06-06	Nest Box Z	2017-06-07 09:44:55	2017-06-07 09:46:15	Mother (Medusa)	Sleeping	45:00	0:00	1:18	Inside nest box
+3220	M4208_ch3_main_20170607101442_20170607101527	2017-06-06	Nest Box Z	2017-06-07 10:14:42	2017-06-07 10:15:27	Mother (Medusa)	Travelling (moving outside nest box)	15:00	0:00	0:44	Outside nest box
+3727	M4208_ch1_main_20170608135807_20170608140128	2017-06-07	Center	2017-06-08 13:58:07	2017-06-08 14:01:28	Mother (Medusa)	Feeding (mother)	00:00	0:03	3:15	Outside nest box
+4126	M4208_ch2_main_20170608123827_20170608124002	2017-06-07	Nest Box X	2017-06-08 12:38:27	2017-06-08 12:40:02	Mother (Medusa)	Hand auto-grooming	00:18	00:45	Outside nest box	
+5290	M4208_ch2_main_20170609144833_20170609152957	2017-06-08	Nest Box X	2017-06-09 14:48:33	2017-06-09 15:29:57	Mother (Medusa)	Sleeping	15:00			Inside nest box
+4127	M4208_ch2_main_20170608124002_20170608124038	2017-06-07	Nest Box X	2017-06-08 12:40:02	2017-06-08 12:40:38	Mother (Medusa)	Hand auto-grooming	00:08	00:36	Outside nest box	
+4128	M4208_ch2_main_20170608124038_20170608124106	2017-06-07	Nest Box X	2017-06-08 12:40:38	2017-06-08 12:41:06	Mother (Medusa)	Hand auto-grooming	00:00	00:28	Outside nest box	
+5586	M4208_ch2_main_20170609182214_20170609182233	2017-06-08	Nest Box X	2017-06-09 18:22:14	2017-06-09 18:22:33	Mother (Medusa)	Observing	22:30			Inside nest box
+3820	M4208_ch1_main_20170608145929_20170608145949	2017-06-07	Center	2017-06-08 14:59:29	2017-06-08 14:59:49	Mother (Medusa)	Foot auto-grooming	00:00	0:00	0:18	Outside nest box
+3271	M4208_ch3_main_20170607104948_20170607105735	2017-06-06	Nest Box Z	2017-06-07 10:49:48	2017-06-07 10:57:35	Mother (Medusa)	Travelling (moving outside nest box)	50:00	0:00	7:40	Outside nest box
+3828	M4208_ch1_main_20170608150045_20170608150059	2017-06-07	Center	2017-06-08 15:00:45	2017-06-08 15:00:59	Mother (Medusa)	Mouth auto-grooming		00:00	00:12	Outside nest box
+3789	M4208_ch1_main_20170608144643_20170608144827	2017-06-07	Center	2017-06-08 14:46:43	2017-06-08 14:48:27	Mother (Medusa)	Feeding (mother)	47:30			Outside nest box
+5573	M4208_ch2_main_20170609181943_20170609182008	2017-06-08	Nest Box X	2017-06-09 18:19:43	2017-06-09 18:20:08	Mother (Medusa)	Resting	20:00			Inside nest box
+3253	M4208_ch3_main_20170607103126_20170607103931	2017-06-06	Nest Box Z	2017-06-07 10:31:26	2017-06-07 10:39:31	Mother (Medusa)	Travelling (moving outside nest box)	32:30	0:00	7:59	Outside nest box
+5204	M4208_ch2_main_20170609143658_20170609143741	2017-06-08	Nest Box X	2017-06-09 14:36:58	2017-06-09 14:37:41	Mother (Medusa)	Feeding (mother)	37:30			Inside nest box
+5146	M4208_ch2_main_20170609141807_20170609142251	2017-06-08	Nest Box X	2017-06-09 14:18:07	2017-06-09 14:22:51	Mother (Medusa)	Sleeping	17:30	0:00	4:41	Inside nest box
+3256	M4208_ch3_main_20170607103931_20170607104023	2017-06-06	Nest Box Z	2017-06-07 10:39:31	2017-06-07 10:40:23	Mother (Medusa)	Travelling (moving outside nest box)	40:00	0:00	0:51	Outside nest box
+3780	M4208_ch1_main_20170608144212_20170608144230	2017-06-07	Center	2017-06-08 14:42:12	2017-06-08 14:42:30	Mother (Medusa)	Travelling (moving outside nest box)	42:30			Outside nest box
+1201	M4208_ch2_main_20170607124306_20170607124501	2017-06-06	Nest Box X	2017-06-07 12:43:06	2017-06-07 12:45:01	Mother (Medusa)	Out of Sight	45:00			Outside nest box
+1177	M4208_ch2_main_20170607123252_20170607123528	2017-06-06	Nest Box X	2017-06-07 12:32:52	2017-06-07 12:35:28	Mother (Medusa)	Constructing Nest	35:00			Inside nest box
+1171	M4208_ch2_main_20170607123051_20170607123233	2017-06-06	Nest Box X	2017-06-07 12:30:51	2017-06-07 12:32:33	Mother (Medusa)	Out of Sight	32:30			Outside nest box
+1166	M4208_ch2_main_20170607122705_20170607123015	2017-06-06	Nest Box X	2017-06-07 12:27:05	2017-06-07 12:30:15	Mother (Medusa)	Constructing Nest	27:30			Inside nest box
+1160	M4208_ch2_main_20170607122315_20170607122642	2017-06-06	Nest Box X	2017-06-07 12:23:15	2017-06-07 12:26:42	Mother (Medusa)	Constructing Nest	25:00			Inside nest box
+1154	M4208_ch2_main_20170607121800_20170607122244	2017-06-06	Nest Box X	2017-06-07 12:18:00	2017-06-07 12:22:44	Mother (Medusa)	Constructing Nest	20:00			Inside nest box
+1147	M4208_ch2_main_20170607121638_20170607121736	2017-06-06	Nest Box X	2017-06-07 12:16:38	2017-06-07 12:17:36	Mother (Medusa)	Out of Sight	17:30			Outside nest box
+1134	M4208_ch2_main_20170607121357_20170607121502	2017-06-06	Nest Box X	2017-06-07 12:13:57	2017-06-07 12:15:02	Mother (Medusa)	Moving (inside nest box)	15:00			Inside nest box
+1126	M4208_ch2_main_20170607121209_20170607121312	2017-06-06	Nest Box X	2017-06-07 12:12:09	2017-06-07 12:13:12	Mother (Medusa)	Constructing Nest	12:30			Inside nest box
+1213	M4208_ch2_main_20170607125329_20170607125435	2017-06-06	Nest Box X	2017-06-07 12:53:29	2017-06-07 12:54:35	Mother (Medusa)	Hand auto-grooming		0:35	0:42	Inside nest box
+1279	M4208_ch2_main_20170607150045_20170607150433	2017-06-06	Nest Box X	2017-06-07 15:00:45	2017-06-07 15:04:33	Mother (Medusa)	Constructing Nest	02:30			Inside nest box
+1274	M4208_ch2_main_20170607140833_20170607141030	2017-06-06	Nest Box X	2017-06-07 14:08:33	2017-06-07 14:10:30	Mother (Medusa)	Constructing Nest	10:00			Inside nest box
+1272	M4208_ch2_main_20170607140706_20170607140830	2017-06-06	Nest Box X	2017-06-07 14:07:06	2017-06-07 14:08:30	Mother (Medusa)	Observing	07:30			Inside nest box
+1270	M4208_ch2_main_20170607140444_20170607140633	2017-06-06	Nest Box X	2017-06-07 14:04:44	2017-06-07 14:06:33	Mother (Medusa)	Constructing Nest	05:00			Inside nest box
+1268	M4208_ch2_main_20170607140204_20170607140416	2017-06-06	Nest Box X	2017-06-07 14:02:04	2017-06-07 14:04:16	Mother (Medusa)	Constructing Nest	02:30			Inside nest box
+1266	M4208_ch2_main_20170607135957_20170607140109	2017-06-06	Nest Box X	2017-06-07 13:59:57	2017-06-07 14:01:09	Mother (Medusa)	Travelling (moving outside nest box)	00:00			Outside nest box
+1262	M4208_ch2_main_20170607134800_20170607135335	2017-06-06	Nest Box X	2017-06-07 13:48:00	2017-06-07 13:53:35	Mother (Medusa)	Constructing Nest	50:00			Inside nest box
+1258	M4208_ch2_main_20170607134314_20170607134530	2017-06-06	Nest Box X	2017-06-07 13:43:14	2017-06-07 13:45:30	Mother (Medusa)	Constructing Nest	45:00			Inside nest box
+1254	M4208_ch2_main_20170607133214_20170607133254	2017-06-06	Nest Box X	2017-06-07 13:32:14	2017-06-07 13:32:54	Mother (Medusa)	Observing	32:30			Inside nest box
+1246	M4208_ch2_main_20170607132639_20170607132747	2017-06-06	Nest Box X	2017-06-07 13:26:39	2017-06-07 13:27:47	Mother (Medusa)	Travelling (moving outside nest box)	27:30			Outside nest box
+1244	M4208_ch2_main_20170607132258_20170607132624	2017-06-06	Nest Box X	2017-06-07 13:22:58	2017-06-07 13:26:24	Mother (Medusa)	Constructing Nest	25:00			Inside nest box
+1238	M4208_ch2_main_20170607131903_20170607132012	2017-06-06	Nest Box X	2017-06-07 13:19:03	2017-06-07 13:20:12	Mother (Medusa)	Out of Sight	20:00			Outside nest box
+1232	M4208_ch2_main_20170607130600_20170607130734	2017-06-06	Nest Box X	2017-06-07 13:06:00	2017-06-07 13:07:34	Mother (Medusa)	Out of Sight	07:30			Outside nest box
+1228	M4208_ch2_main_20170607130003_20170607130351	2017-06-06	Nest Box X	2017-06-07 13:00:03	2017-06-07 13:03:51	Mother (Medusa)	Observing	02:30			Inside nest box
+1225	M4208_ch2_main_20170607125729_20170607125927	2017-06-06	Nest Box X	2017-06-07 12:57:29	2017-06-07 12:59:27	Mother (Medusa)	Moving (inside nest box)	57:30			Inside nest box
+1217	M4208_ch2_main_20170607125439_20170607125558	2017-06-06	Nest Box X	2017-06-07 12:54:39	2017-06-07 12:55:58	Mother (Medusa)	Constructing Nest	55:00			Inside nest box
+1105	M4208_ch2_main_20170607120328_20170607120550	2017-06-06	Nest Box X	2017-06-07 12:03:28	2017-06-07 12:05:50	Mother (Medusa)	Constructing Nest	05:00			Inside nest box
+1283	M4208_ch2_main_20170607150527_20170607151147	2017-06-06	Nest Box X	2017-06-07 15:05:27	2017-06-07 15:11:47	Mother (Medusa)	Constructing Nest	07:30			Inside nest box
+1028	M4208_ch2_main_20170607113159_20170607113338	2017-06-06	Nest Box X	2017-06-07 11:31:59	2017-06-07 11:33:38	Mother (Medusa)	Constructing Nest	32:30			Inside nest box
+977	M4208_ch2_main_20170607110413_20170607110522	2017-06-06	Nest Box X	2017-06-07 11:04:13	2017-06-07 11:05:22	Mother (Medusa)	Observing	05:00			Inside nest box
+966	M4208_ch2_main_20170607105806_20170607105844	2017-06-06	Nest Box X	2017-06-07 10:58:06	2017-06-07 10:58:44	Mother (Medusa)	Travelling (moving outside nest box)				Outside nest box
+965	M4208_ch2_main_20170607105427_20170607105805	2017-06-06	Nest Box X	2017-06-07 10:54:27	2017-06-07 10:58:05	Mother (Medusa)	Constructing Nest	55:00			Inside nest box
+940	M4208_ch2_main_20170607103718_20170607103934	2017-06-06	Nest Box X	2017-06-07 10:37:18	2017-06-07 10:39:34	Mother (Medusa)	Out of Sight	37:30			Outside nest box
+936	M4208_ch2_main_20170607103441_20170607103716	2017-06-06	Nest Box X	2017-06-07 10:34:41	2017-06-07 10:37:16	Mother (Medusa)	Constructing Nest	35:00			Inside nest box
+6145	M4208_ch3_main_20170609200000_20170609202116	2017-06-08	Nest Box Z	2017-06-09 20:00:00	2017-06-09 20:21:16	Mother (Medusa)	Out of Sight	00:00			Outside nest box
+852	M4208_ch1_main_20170607202735_20170607210000	2017-06-06	Center	2017-06-07 20:27:35	2017-06-07 21:00:00	Mother (Medusa)	Out of Sight	55:00			Inside nest box
+850	M4208_ch1_main_20170607202516_20170607202735	2017-06-06	Center	2017-06-07 20:25:16	2017-06-07 20:27:35	Mother (Medusa)	Out of Sight	27:30			Inside nest box
+849	M4208_ch1_main_20170607202458_20170607202516	2017-06-06	Center	2017-06-07 20:24:58	2017-06-07 20:25:16	Mother (Medusa)	Travelling (moving outside nest box)	25:00			Outside nest box
+848	M4208_ch1_main_20170607202324_20170607202458	2017-06-06	Center	2017-06-07 20:23:24	2017-06-07 20:24:58	Mother (Medusa)	Nursing (infant)		0:08	1:32	Inside nest box
+1035	M4208_ch2_main_20170607113459_20170607113541	2017-06-06	Nest Box X	2017-06-07 11:34:59	2017-06-07 11:35:41	Mother (Medusa)	Constructing Nest	35:00			Inside nest box
+1096	M4208_ch2_main_20170607120213_20170607120235	2017-06-06	Nest Box X	2017-06-07 12:02:13	2017-06-07 12:02:35	Mother (Medusa)	Moving (inside nest box)	02:30			Inside nest box
+1084	M4208_ch2_main_20170607115425_20170607115530	2017-06-06	Nest Box X	2017-06-07 11:54:25	2017-06-07 11:55:30	Mother (Medusa)	Constructing Nest	55:00			Inside nest box
+1076	M4208_ch2_main_20170607115105_20170607115301	2017-06-06	Nest Box X	2017-06-07 11:51:05	2017-06-07 11:53:01	Mother (Medusa)	Moving (inside nest box)	52:30			Inside nest box
+1072	M4208_ch2_main_20170607114917_20170607115039	2017-06-06	Nest Box X	2017-06-07 11:49:17	2017-06-07 11:50:39	Mother (Medusa)	Observing	50:00			Inside nest box
+1064	M4208_ch2_main_20170607114653_20170607114754	2017-06-06	Nest Box X	2017-06-07 11:46:53	2017-06-07 11:47:54	Mother (Medusa)	Constructing Nest	47:30			Inside nest box
+1056	M4208_ch2_main_20170607114435_20170607114541	2017-06-06	Nest Box X	2017-06-07 11:44:35	2017-06-07 11:45:41	Mother (Medusa)	Constructing Nest	45:00			Inside nest box
+1048	M4208_ch2_main_20170607114208_20170607114258	2017-06-06	Nest Box X	2017-06-07 11:42:08	2017-06-07 11:42:58	Mother (Medusa)	Constructing Nest	42:30			Inside nest box
+1040	M4208_ch2_main_20170607113545_20170607113733	2017-06-06	Nest Box X	2017-06-07 11:35:45	2017-06-07 11:37:33	Mother (Medusa)	Out of Sight	37:30			Outside nest box
+1286	M4208_ch2_main_20170607151151_20170607151615	2017-06-06	Nest Box X	2017-06-07 15:11:51	2017-06-07 15:16:15	Mother (Medusa)	Constructing Nest	12:30			Inside nest box
+1652	M4208_ch2_main_20170607185502_20170607185929	2017-06-06	Nest Box X	2017-06-07 18:55:02	2017-06-07 18:59:29	Mother (Medusa)	Travelling (moving outside nest box)	57:30			Outside nest box
+1610	M4208_ch2_main_20170607183936_20170607184037	2017-06-06	Nest Box X	2017-06-07 18:39:36	2017-06-07 18:40:37	Mother (Medusa)	Moving (inside nest box)	40:00			Inside nest box
+1599	M4208_ch2_main_20170607183645_20170607183809	2017-06-06	Nest Box X	2017-06-07 18:36:45	2017-06-07 18:38:09	Mother (Medusa)	Constructing Nest	37:30			Inside nest box
+5847	M4208_ch2_main_20170609202921_20170609203007	2017-06-08	Nest Box X	2017-06-09 20:29:21	2017-06-09 20:30:07	Mother (Medusa)	Moving (inside nest box)	30:00			Inside nest box
+1590	M4208_ch2_main_20170607183457_20170607183534	2017-06-06	Nest Box X	2017-06-07 18:34:57	2017-06-07 18:35:34	Mother (Medusa)	Travelling (moving outside nest box)	35:00			Inside nest box
+5849	M4208_ch2_main_20170609203026_20170609203735	2017-06-08	Nest Box X	2017-06-09 20:30:26	2017-06-09 20:37:35	Mother (Medusa)	The lemur is inside a cage in the nest box, but I cannot see what is happening. 	32:30			Inside nest box
+5851	M4208_ch2_main_20170609203809_20170609210000	2017-06-08	Nest Box X	2017-06-09 20:38:09	2017-06-09 21:00:00	Mother (Medusa)	The lemur is inside a cage in the nest box, but I cannot see what is happening. 	40:00			Inside nest box
+1581	M4208_ch2_main_20170607183213_20170607183326	2017-06-06	Nest Box X	2017-06-07 18:32:13	2017-06-07 18:33:26	Mother (Medusa)	Constructing Nest	32:30			Inside nest box
+5866	M4208_ch2_main_20170609223000_20170609230000	2017-06-08	Nest Box X	2017-06-09 22:30:00	2017-06-09 23:00:00	Mother (Medusa)	Sleeping	32:30			Inside nest box
+1569	M4208_ch2_main_20170607182951_20170607183035	2017-06-06	Nest Box X	2017-06-07 18:29:51	2017-06-07 18:30:35	Mother (Medusa)	Constructing Nest	30:00			Inside nest box
+5869	M4208_ch2_main_20170609230000_20170609233000	2017-06-08	Nest Box X	2017-06-09 23:00:00	2017-06-09 23:30:00	Mother (Medusa)	Sleeping	32:30			Inside nest box
+1563	M4208_ch2_main_20170607182715_20170607182852	2017-06-06	Nest Box X	2017-06-07 18:27:15	2017-06-07 18:28:52	Mother (Medusa)	Moving (inside nest box)	27:30			Inside nest box
+5872	M4208_ch2_main_20170609233000_20170609235725	2017-06-08	Nest Box X	2017-06-09 23:30:00	2017-06-09 23:57:25	Mother (Medusa)	Sleeping	32:30			Inside nest box
+1537	M4208_ch2_main_20170607181904_20170607182108	2017-06-06	Nest Box X	2017-06-07 18:19:04	2017-06-07 18:21:08	Mother (Medusa)	Foraging (mother)	20:00			Inside nest box
+5842	M4208_ch2_main_20170609202702_20170609202830	2017-06-08	Nest Box X	2017-06-09 20:27:02	2017-06-09 20:28:30	Mother (Medusa)	Foot auto-grooming	27:30	0:29 	0:43	Inside nest box
+1650	M4208_ch2_main_20170607185455_20170607185501	2017-06-06	Nest Box X	2017-06-07 18:54:55	2017-06-07 18:55:01	Mother (Medusa)	Constructing Nest	55:00			Outside nest box
+5833	M4208_ch2_main_20170609200000_20170609201737	2017-06-08	Nest Box X	2017-06-09 20:00:00	2017-06-09 20:17:37	Mother (Medusa)	Resting	02:30			Inside nest box
+1641	M4208_ch2_main_20170607185139_20170607185359	2017-06-06	Nest Box X	2017-06-07 18:51:39	2017-06-07 18:53:59	Mother (Medusa)	Constructing Nest	52:30			Inside nest box
+1638	M4208_ch2_main_20170607185001_20170607185139	2017-06-06	Nest Box X	2017-06-07 18:50:01	2017-06-07 18:51:39	Mother (Medusa)	Out of Sight	50:00			Outside nest box
+5837	M4208_ch2_main_20170609201836_20170609202114	2017-06-08	Nest Box X	2017-06-09 20:18:36	2017-06-09 20:21:14	Mother (Medusa)	Sleeping	22:30			Inside nest box
+5839	M4208_ch2_main_20170609202227_20170609202308	2017-06-08	Nest Box X	2017-06-09 20:22:27	2017-06-09 20:23:08	Mother (Medusa)	Resting	22:30			Inside nest box
+1628	M4208_ch2_main_20170607184422_20170607184927	2017-06-06	Nest Box X	2017-06-07 18:44:22	2017-06-07 18:49:27	Mother (Medusa)	Constructing Nest	45:00			Inside nest box
+5841	M4208_ch2_main_20170609202324_20170609202702	2017-06-08	Nest Box X	2017-06-09 20:23:24	2017-06-09 20:27:02	Mother (Medusa)	Resting	25:00			Inside nest box
+1623	M4208_ch2_main_20170607184203_20170607184331	2017-06-06	Nest Box X	2017-06-07 18:42:03	2017-06-07 18:43:31	Mother (Medusa)	Feeding (mother)	42:30			Inside nest box
+5873	M4208_ch2_main_20170609235726_20170609235910	2017-06-08	Nest Box X	2017-06-09 23:57:26	2017-06-09 23:59:10	Mother (Medusa)	Sleeping	57:30			Inside nest box
+1490	M4208_ch2_main_20170607175633_20170607180223	2017-06-06	Nest Box X	2017-06-07 17:56:33	2017-06-07 18:02:23	Mother (Medusa)	Constructing Nest	57:30			Inside nest box
+1482	M4208_ch2_main_20170607173709_20170607175215	2017-06-06	Nest Box X	2017-06-07 17:37:09	2017-06-07 17:52:15	Mother (Medusa)	Out of Sight	37:30			Inside nest box
+1461	M4208_ch2_main_20170607171656_20170607172004	2017-06-06	Nest Box X	2017-06-07 17:16:56	2017-06-07 17:20:04	Mother (Medusa)	Feeding (mother)	17:30			Inside nest box
+1389	M4208_ch2_main_20170607162941_20170607163032	2017-06-06	Nest Box X	2017-06-07 16:29:41	2017-06-07 16:30:32	Mother (Medusa)	Constructing Nest	30:00			Inside nest box
+1372	M4208_ch2_main_20170607162159_20170607162256	2017-06-06	Nest Box X	2017-06-07 16:21:59	2017-06-07 16:22:56	Mother (Medusa)	Constructing Nest	22:30			Inside nest box
+1359	M4208_ch2_main_20170607161333_20170607161527	2017-06-06	Nest Box X	2017-06-07 16:13:33	2017-06-07 16:15:27	Mother (Medusa)	Observing	15:00			Inside nest box
+1352	M4208_ch2_main_20170607160705_20170607160856	2017-06-06	Nest Box X	2017-06-07 16:07:05	2017-06-07 16:08:56	Mother (Medusa)	Constructing Nest	07:30			Inside nest box
+1321	M4208_ch2_main_20170607154443_20170607155405	2017-06-06	Nest Box X	2017-06-07 15:44:43	2017-06-07 15:54:05	Mother (Medusa)	Constructing Nest	45:00			Inside nest box
+1317	M4208_ch2_main_20170607154154_20170607154343	2017-06-06	Nest Box X	2017-06-07 15:41:54	2017-06-07 15:43:43	Mother (Medusa)	Constructing Nest	42:30			Inside nest box
+1309	M4208_ch2_main_20170607153211_20170607153943	2017-06-06	Nest Box X	2017-06-07 15:32:11	2017-06-07 15:39:43	Mother (Medusa)	Constructing Nest	32:30			Inside nest box
+1305	M4208_ch2_main_20170607152839_20170607153127	2017-06-06	Nest Box X	2017-06-07 15:28:39	2017-06-07 15:31:27	Mother (Medusa)	Constructing Nest	30:00			Inside nest box
+1292	M4208_ch2_main_20170607151652_20170607151832	2017-06-06	Nest Box X	2017-06-07 15:16:52	2017-06-07 15:18:32	Mother (Medusa)	Out of Sight	17:30			Outside nest box
+1531	M4208_ch2_main_20170607181715_20170607181828	2017-06-06	Nest Box X	2017-06-07 18:17:15	2017-06-07 18:18:28	Mother (Medusa)	Moving (inside nest box)	17:30			Inside nest box
+1522	M4208_ch2_main_20170607181320_20170607181626	2017-06-06	Nest Box X	2017-06-07 18:13:20	2017-06-07 18:16:26	Mother (Medusa)	Constructing Nest	15:00			Inside nest box
+1519	M4208_ch2_main_20170607181222_20170607181320	2017-06-06	Nest Box X	2017-06-07 18:12:22	2017-06-07 18:13:20	Mother (Medusa)	Travelling (moving outside nest box)	12:30			Inside nest box
+1510	M4208_ch2_main_20170607180918_20170607181007	2017-06-06	Nest Box X	2017-06-07 18:09:18	2017-06-07 18:10:07	Mother (Medusa)	Travelling (moving outside nest box)	10:00			Outside nest box
+1504	M4208_ch2_main_20170607180649_20170607180915	2017-06-06	Nest Box X	2017-06-07 18:06:49	2017-06-07 18:09:15	Mother (Medusa)	Constructing Nest	07:30			Inside nest box
+1498	M4208_ch2_main_20170607180242_20170607180633	2017-06-06	Nest Box X	2017-06-07 18:02:42	2017-06-07 18:06:33	Mother (Medusa)	Constructing Nest	05:00			Outside nest box
+1495	M4208_ch2_main_20170607180223_20170607180242	2017-06-06	Nest Box X	2017-06-07 18:02:23	2017-06-07 18:02:42	Mother (Medusa)	Travelling (moving outside nest box)	02:30			Inside nest box
+846	M4208_ch1_main_20170607202204_20170607202304	2017-06-06	Center	2017-06-07 20:22:04	2017-06-07 20:23:04	Mother (Medusa)	Constructing Nest	22:30			Inside nest box
+844	M4208_ch1_main_20170607200811_20170607202147	2017-06-06	Center	2017-06-07 20:08:11	2017-06-07 20:21:47	Mother (Medusa)	Out of Sight	10:00			Inside nest box
+842	M4208_ch1_main_20170607195924_20170607200749	2017-06-06	Center	2017-06-07 19:59:24	2017-06-07 20:07:49	Mother (Medusa)	Travelling (moving outside nest box)	00:00			Outside nest box
+354	M4208_ch1_main_20170607124551_20170607125545	2017-06-06	Center	2017-06-07 12:45:51	2017-06-07 12:55:45	Mother (Medusa)	Out of Sight	47:30			Inside nest box
+348	M4208_ch1_main_20170607124448_20170607124508	2017-06-06	Center	2017-06-07 12:44:48	2017-06-07 12:45:08	Mother (Medusa)	Travelling (moving outside nest box)	45:00			Outside nest box
+346	M4208_ch1_main_20170607124226_20170607124448	2017-06-06	Center	2017-06-07 12:42:26	2017-06-07 12:44:48	Mother (Medusa)	Out of Sight	42:30			Outside nest box
+332	M4208_ch1_main_20170607123716_20170607123749	2017-06-06	Center	2017-06-07 12:37:16	2017-06-07 12:37:49	Mother (Medusa)	Travelling (moving outside nest box)	37:30			Outside nest box
+319	M4208_ch1_main_20170607121812_20170607122236	2017-06-06	Center	2017-06-07 12:18:12	2017-06-07 12:22:36	Mother (Medusa)	Constructing Nest	20:00			Inside nest box
+316	M4208_ch1_main_20170607121635_20170607121752	2017-06-06	Center	2017-06-07 12:16:35	2017-06-07 12:17:52	Mother (Medusa)	Travelling (moving outside nest box)	17:30			Outside nest box
+312	M4208_ch1_main_20170607121323_20170607121604	2017-06-06	Center	2017-06-07 12:13:23	2017-06-07 12:16:04	Mother (Medusa)	Observing	15:00			Outside nest box
+300	M4208_ch1_main_20170607120255_20170607120604	2017-06-06	Center	2017-06-07 12:02:55	2017-06-07 12:06:04	Mother (Medusa)	Constructing Nest				Outside nest box
+291	M4208_ch1_main_20170607115825_20170607120222	2017-06-06	Center	2017-06-07 11:58:25	2017-06-07 12:02:22	Mother (Medusa)	Constructing Nest				Outside nest box
+286	M4208_ch1_main_20170607115705_20170607115806	2017-06-06	Center	2017-06-07 11:57:05	2017-06-07 11:58:06	Mother (Medusa)	Feeding (mother)	57:30			Outside nest box
+360	M4208_ch1_main_20170607125725_20170607125740	2017-06-06	Center	2017-06-07 12:57:25	2017-06-07 12:57:40	Mother (Medusa)	Travelling (moving outside nest box)	57:30			Outside nest box
+257	M4208_ch1_main_20170607114301_20170607114627	2017-06-06	Center	2017-06-07 11:43:01	2017-06-07 11:46:27	Mother (Medusa)	Out of Sight	45:00			Inside nest box
+430	M4208_ch1_main_20170607135347_20170607140115	2017-06-06	Center	2017-06-07 13:53:47	2017-06-07 14:01:15	Mother (Medusa)	Out of Sight	55:00			Inside nest box
+422	M4208_ch1_main_20170607134729_20170607134818	2017-06-06	Center	2017-06-07 13:47:29	2017-06-07 13:48:18	Mother (Medusa)	Constructing Nest	47:30			Outside nest box
+412	M4208_ch1_main_20170607133942_20170607134610	2017-06-06	Center	2017-06-07 13:39:42	2017-06-07 13:46:10	Mother (Medusa)	Out of Sight	40:00			Inside nest box
+407	M4208_ch1_main_20170607133516_20170607133908	2017-06-06	Center	2017-06-07 13:35:16	2017-06-07 13:39:08	Mother (Medusa)	Hand auto-grooming		35:15	35:28	Outside nest box
+395	M4208_ch1_main_20170607133010_20170607133244	2017-06-06	Center	2017-06-07 13:30:10	2017-06-07 13:32:44	Mother (Medusa)	Out of Sight	32:30			Inside nest box
+393	M4208_ch1_main_20170607132940_20170607133010	2017-06-06	Center	2017-06-07 13:29:40	2017-06-07 13:30:10	Mother (Medusa)	Observing	30:00			Outside nest box
+383	M4208_ch1_main_20170607132636_20170607132843	2017-06-06	Center	2017-06-07 13:26:36	2017-06-07 13:28:43	Mother (Medusa)	Travelling (moving outside nest box)	27:30			Outside nest box
+379	M4208_ch1_main_20170607132033_20170607132617	2017-06-06	Center	2017-06-07 13:20:33	2017-06-07 13:26:17	Mother (Medusa)	Constructing Nest	22:30			Outside nest box
+367	M4208_ch1_main_20170607130011_20170607130557	2017-06-06	Center	2017-06-07 13:00:11	2017-06-07 13:05:57	Mother (Medusa)	Constructing Nest	02:30			Inside nest box
+365	M4208_ch1_main_20170607125951_20170607130011	2017-06-06	Center	2017-06-07 12:59:51	2017-06-07 13:00:11	Mother (Medusa)	Constructing Nest	00:00			Outside nest box
+252	M4208_ch1_main_20170607113949_20170607114004	2017-06-06	Center	2017-06-07 11:39:49	2017-06-07 11:40:04	Mother (Medusa)	Constructing Nest	40:00			Inside nest box
+837	M4208_ch1_main_20170607195627_20170607195746	2017-06-06	Center	2017-06-07 19:56:27	2017-06-07 19:57:46	Mother (Medusa)	Out of Sight	57:30			Outside nest box
+144	M4208_ch1_main_20170607104948_20170607105734	2017-06-06	Center	2017-06-07 10:49:48	2017-06-07 10:57:34	Mother (Medusa)	Out of Sight	50:00			Outside nest box
+132	M4208_ch1_main_20170607104020_20170607104734	2017-06-06	Center	2017-06-07 10:40:20	2017-06-07 10:47:34	Mother (Medusa)	Out of Sight	42:30			Outside nest box
+128	M4208_ch1_main_20170607103956_20170607104005	2017-06-06	Center	2017-06-07 10:39:56	2017-06-07 10:40:05	Mother (Medusa)	Travelling (moving outside nest box)	40:00			Outside nest box
+120	M4208_ch1_main_20170607103126_20170607103836	2017-06-06	Center	2017-06-07 10:31:26	2017-06-07 10:38:36	Mother (Medusa)	Out of Sight	32:30			Outside nest box
+117	M4208_ch1_main_20170607102826_20170607103107	2017-06-06	Center	2017-06-07 10:28:26	2017-06-07 10:31:07	Mother (Medusa)	Out of Sight	30:00			Outside nest box
+113	M4208_ch1_main_20170607102150_20170607102808	2017-06-06	Center	2017-06-07 10:21:50	2017-06-07 10:28:08	Mother (Medusa)	Out of Sight	22:30			Outside nest box
+91	M4208_ch1_main_20170607101525_20170607101555	2017-06-06	Center	2017-06-07 10:15:25	2017-06-07 10:15:55	Mother (Medusa)	Foot auto-grooming		0:21	0:28	Outside nest box
+74	M4208_ch1_main_20170607100000_20170607100914	2017-06-06	Center	2017-06-07 10:00:00	2017-06-07 10:09:14	Mother (Medusa)	Out of Sight	00:00			Inside nest box
+161	M4208_ch1_main_20170607105952_20170607110006	2017-06-06	Center	2017-06-07 10:59:52	2017-06-07 11:00:06	Mother (Medusa)	Resting	00:00			Outside nest box
+247	M4208_ch1_main_20170607113729_20170607113744	2017-06-06	Center	2017-06-07 11:37:29	2017-06-07 11:37:44	Mother (Medusa)	Constructing Nest	37:30			Outside nest box
+239	M4208_ch1_main_20170607113412_20170607113529	2017-06-06	Center	2017-06-07 11:34:12	2017-06-07 11:35:29	Mother (Medusa)	Constructing Nest	35:00			Outside nest box
+235	M4208_ch1_main_20170607113218_20170607113357	2017-06-06	Center	2017-06-07 11:32:18	2017-06-07 11:33:57	Mother (Medusa)	Constructing Nest	32:30			Inside nest box
+223	M4208_ch1_main_20170607112956_20170607113018	2017-06-06	Center	2017-06-07 11:29:56	2017-06-07 11:30:18	Mother (Medusa)	Constructing Nest	30:00			Outside nest box
+212	M4208_ch1_main_20170607112115_20170607112317	2017-06-06	Center	2017-06-07 11:21:15	2017-06-07 11:23:17	Mother (Medusa)	Observing	22:30			Outside nest box
+208	M4208_ch1_main_20170607111947_20170607112002	2017-06-06	Center	2017-06-07 11:19:47	2017-06-07 11:20:02	Mother (Medusa)	Observing	20:00			Outside nest box
+204	M4208_ch1_main_20170607111552_20170607111617	2017-06-06	Center	2017-06-07 11:15:52	2017-06-07 11:16:17	Mother (Medusa)	Foot auto-grooming		0:04	0:06	Outside nest box
+187	M4208_ch1_main_20170607111206_20170607111338	2017-06-06	Center	2017-06-07 11:12:06	2017-06-07 11:13:38	Mother (Medusa)	Out of Sight	12:30			Outside nest box
+441	M4208_ch1_main_20170607140218_20170607140433	2017-06-06	Center	2017-06-07 14:02:18	2017-06-07 14:04:33	Mother (Medusa)	Out of Sight	02:30			Inside nest box
+773	M4208_ch1_main_20170607182116_20170607182537	2017-06-06	Center	2017-06-07 18:21:16	2017-06-07 18:25:37	Mother (Medusa)	Constructing Nest	22:30			Outside nest box
+769	M4208_ch1_main_20170607181006_20170607181646	2017-06-06	Center	2017-06-07 18:10:06	2017-06-07 18:16:46	Mother (Medusa)	Constructing Nest	12:30			Outside nest box
+768	M4208_ch1_main_20170607180951_20170607181006	2017-06-06	Center	2017-06-07 18:09:51	2017-06-07 18:10:06	Mother (Medusa)	Travelling (moving outside nest box)	10:00			Outside nest box
+762	M4208_ch1_main_20170607180000_20170607180648	2017-06-06	Center	2017-06-07 18:00:00	2017-06-07 18:06:48	Mother (Medusa)	Travelling (moving outside nest box)				Outside nest box
+755	M4208_ch1_main_20170607171704_20170607172127	2017-06-06	Center	2017-06-07 17:17:04	2017-06-07 17:21:27	Mother (Medusa)	Out of Sight	17:30			Inside nest box
+747	M4208_ch1_main_20170607171401_20170607171625	2017-06-06	Center	2017-06-07 17:14:01	2017-06-07 17:16:25	Mother (Medusa)	Travelling (moving outside nest box)	15:00			Outside nest box
+743	M4208_ch1_main_20170607170349_20170607171337	2017-06-06	Center	2017-06-07 17:03:49	2017-06-07 17:13:37	Mother (Medusa)	Travelling (moving outside nest box)	05:00			Outside nest box
+726	M4208_ch1_main_20170607165637_20170607165732	2017-06-06	Center	2017-06-07 16:56:37	2017-06-07 16:57:32	Mother (Medusa)	Travelling (moving outside nest box)	57:30			Outside nest box
+719	M4208_ch1_main_20170607165015_20170607165544	2017-06-06	Center	2017-06-07 16:50:15	2017-06-07 16:55:44	Mother (Medusa)	Out of Sight	52:30			Outside nest box
+718	M4208_ch1_main_20170607164958_20170607165014	2017-06-06	Center	2017-06-07 16:49:58	2017-06-07 16:50:14	Mother (Medusa)	Travelling (moving outside nest box)	50:00			Outside nest box
+717	M4208_ch1_main_20170607164150_20170607164958	2017-06-06	Center	2017-06-07 16:41:50	2017-06-07 16:49:58	Mother (Medusa)	Constructing Nest	42:30			Outside nest box
+709	M4208_ch1_main_20170607163915_20170607164116	2017-06-06	Center	2017-06-07 16:39:15	2017-06-07 16:41:16	Mother (Medusa)	Travelling (moving outside nest box)	40:00	163915	164116	Outside nest box
+771	M4208_ch1_main_20170607181724_20170607182101	2017-06-06	Center	2017-06-07 18:17:24	2017-06-07 18:21:01	Mother (Medusa)	Out of Sight	17:30			Outside nest box
+777	M4208_ch1_main_20170607182647_20170607182834	2017-06-06	Center	2017-06-07 18:26:47	2017-06-07 18:28:34	Mother (Medusa)	Out of Sight	27:30			Outside nest box
+779	M4208_ch1_main_20170607182908_20170607183025	2017-06-06	Center	2017-06-07 18:29:08	2017-06-07 18:30:25	Mother (Medusa)	Travelling (moving outside nest box)	30:00			Outside nest box
+835	M4208_ch1_main_20170607195003_20170607195611	2017-06-06	Center	2017-06-07 19:50:03	2017-06-07 19:56:11	Mother (Medusa)	Out of Sight	52:30			Inside nest box
+834	M4208_ch1_main_20170607194948_20170607195003	2017-06-06	Center	2017-06-07 19:49:48	2017-06-07 19:50:03	Mother (Medusa)	Travelling (moving outside nest box)	50:00			Outside nest box
+833	M4208_ch1_main_20170607194715_20170607194948	2017-06-06	Center	2017-06-07 19:47:15	2017-06-07 19:49:48	Mother (Medusa)	Out of Sight	47:30			Outside nest box
+831	M4208_ch1_main_20170607194419_20170607194701	2017-06-06	Center	2017-06-07 19:44:19	2017-06-07 19:47:01	Mother (Medusa)	Constructing Nest	45:00			Inside nest box
+829	M4208_ch1_main_20170607194157_20170607194346	2017-06-06	Center	2017-06-07 19:41:57	2017-06-07 19:43:46	Mother (Medusa)	Constructing Nest	42:30			Inside nest box
+825	M4208_ch1_main_20170607192612_20170607194030	2017-06-06	Center	2017-06-07 19:26:12	2017-06-07 19:40:30	Mother (Medusa)	Travelling (moving outside nest box)	27:30			Outside nest box
+823	M4208_ch1_main_20170607192458_20170607192543	2017-06-06	Center	2017-06-07 19:24:58	2017-06-07 19:25:43	Mother (Medusa)	Travelling (moving outside nest box)	25:00			Outside nest box
+821	M4208_ch1_main_20170607191800_20170607192442	2017-06-06	Center	2017-06-07 19:18:00	2017-06-07 19:24:42	Mother (Medusa)	Travelling (moving outside nest box)	20:00			Outside nest box
+819	M4208_ch1_main_20170607191057_20170607191744	2017-06-06	Center	2017-06-07 19:10:57	2017-06-07 19:17:44	Mother (Medusa)	Constructing Nest	12:30			Outside nest box
+817	M4208_ch1_main_20170607190956_20170607191042	2017-06-06	Center	2017-06-07 19:09:56	2017-06-07 19:10:42	Mother (Medusa)	Out of Sight	10:00			Outside nest box
+809	M4208_ch1_main_20170607190719_20170607190808	2017-06-06	Center	2017-06-07 19:07:19	2017-06-07 19:08:08	Mother (Medusa)	Unidentifiable behavior due to camera angle	07:30			Inside nest box
+807	M4208_ch1_main_20170607190409_20170607190648	2017-06-06	Center	2017-06-07 19:04:09	2017-06-07 19:06:48	Mother (Medusa)	Moving (inside nest box)	05:00			Inside nest box
+804	M4208_ch1_main_20170607190225_20170607190251	2017-06-06	Center	2017-06-07 19:02:25	2017-06-07 19:02:51	Mother (Medusa)	Travelling (moving outside nest box)	02:30			Outside nest box
+801	M4208_ch1_main_20170607185410_20170607190051	2017-06-06	Center	2017-06-07 18:54:10	2017-06-07 19:00:51	Mother (Medusa)	Constructing Nest	55:00			Outside nest box
+799	M4208_ch1_main_20170607184437_20170607185346	2017-06-06	Center	2017-06-07 18:44:37	2017-06-07 18:53:46	Mother (Medusa)	Constructing Nest	45:00			Outside nest box
+795	M4208_ch1_main_20170607184211_20170607184321	2017-06-06	Center	2017-06-07 18:42:11	2017-06-07 18:43:21	Mother (Medusa)	Constructing Nest	42:30			Outside nest box
+791	M4208_ch1_main_20170607183947_20170607184034	2017-06-06	Center	2017-06-07 18:39:47	2017-06-07 18:40:34	Mother (Medusa)	Out of Sight	40:00			Outside nest box
+785	M4208_ch1_main_20170607183620_20170607183811	2017-06-06	Center	2017-06-07 18:36:20	2017-06-07 18:38:11	Mother (Medusa)	Constructing Nest	37:30			Outside nest box
+783	M4208_ch1_main_20170607183204_20170607183549	2017-06-06	Center	2017-06-07 18:32:04	2017-06-07 18:35:49	Mother (Medusa)	Constructing Nest	32:30			Outside nest box
+701	M4208_ch1_main_20170607163647_20170607163743	2017-06-06	Center	2017-06-07 16:36:47	2017-06-07 16:37:43	Mother (Medusa)	Out of Sight	37:30			Inside nest box
+693	M4208_ch1_main_20170607163129_20170607163255	2017-06-06	Center	2017-06-07 16:31:29	2017-06-07 16:32:55	Mother (Medusa)	Out of Sight	32:30			Inside nest box
+520	M4208_ch1_main_20170607143429_20170607143754	2017-06-06	Center	2017-06-07 14:34:29	2017-06-07 14:37:54	Mother (Medusa)	Travelling (moving outside nest box)	35:00			Outside nest box
+511	M4208_ch1_main_20170607143205_20170607143233	2017-06-06	Center	2017-06-07 14:32:05	2017-06-07 14:32:33	Mother (Medusa)	Out of Sight	32:30			Inside nest box
+505	M4208_ch1_main_20170607143127_20170607143146	2017-06-06	Center	2017-06-07 14:31:27	2017-06-07 14:31:46	Mother (Medusa)	Hand auto-grooming		31:32	31:35	Outside nest box
+499	M4208_ch1_main_20170607143051_20170607143108	2017-06-06	Center	2017-06-07 14:30:51	2017-06-07 14:31:08	Mother (Medusa)	Foot auto-grooming		0:03	0:11	Outside nest box
+497	M4208_ch1_main_20170607142749_20170607143051	2017-06-06	Center	2017-06-07 14:27:49	2017-06-07 14:30:51	Mother (Medusa)	Foot auto-grooming		27:49	27:56	Outside nest box
+474	M4208_ch1_main_20170607142149_20170607142310	2017-06-06	Center	2017-06-07 14:21:49	2017-06-07 14:23:10	Mother (Medusa)	Observing	22:30			Outside nest box
+462	M4208_ch1_main_20170607141149_20170607142010	2017-06-06	Center	2017-06-07 14:11:49	2017-06-07 14:20:10	Mother (Medusa)	Observing	12:30			Outside nest box
+454	M4208_ch1_main_20170607140844_20170607141015	2017-06-06	Center	2017-06-07 14:08:44	2017-06-07 14:10:15	Mother (Medusa)	Out of Sight	10:00			Inside nest box
+450	M4208_ch1_main_20170607140721_20170607140829	2017-06-06	Center	2017-06-07 14:07:21	2017-06-07 14:08:29	Mother (Medusa)	Out of Sight	07:30			Inside nest box
+446	M4208_ch1_main_20170607140500_20170607140651	2017-06-06	Center	2017-06-07 14:05:00	2017-06-07 14:06:51	Mother (Medusa)	Out of Sight	05:00			Inside nest box
+542	M4208_ch1_main_20170607144152_20170607144334	2017-06-06	Center	2017-06-07 14:41:52	2017-06-07 14:43:34	Mother (Medusa)	Out of Sight	42:30			Inside nest box
+621	M4208_ch1_main_20170607155608_20170607160029	2017-06-06	Center	2017-06-07 15:56:08	2017-06-07 16:00:29	Mother (Medusa)	Out of Sight	57:30			Inside nest box
+688	M4208_ch1_main_20170607162946_20170607163032	2017-06-06	Center	2017-06-07 16:29:46	2017-06-07 16:30:32	Mother (Medusa)	Out of Sight	30:00			Inside nest box
+680	M4208_ch1_main_20170607162346_20170607162822	2017-06-06	Center	2017-06-07 16:23:46	2017-06-07 16:28:22	Mother (Medusa)	Travelling (moving outside nest box)	25:00			Outside nest box
+642	M4208_ch1_main_20170607161000_20170607161040	2017-06-06	Center	2017-06-07 16:10:00	2017-06-07 16:10:40	Mother (Medusa)	Travelling (moving outside nest box)	10:00			Outside nest box
+633	M4208_ch1_main_20170607160221_20170607160412	2017-06-06	Center	2017-06-07 16:02:21	2017-06-07 16:04:12	Mother (Medusa)	Travelling (moving outside nest box)	02:30			Outside nest box
+559	M4208_ch1_main_20170607144855_20170607145027	2017-06-06	Center	2017-06-07 14:48:55	2017-06-07 14:50:27	Mother (Medusa)	Out of Sight	50:00			Outside nest box
+616	M4208_ch1_main_20170607155430_20170607155549	2017-06-06	Center	2017-06-07 15:54:30	2017-06-07 15:55:49	Mother (Medusa)	Travelling (moving outside nest box)	55:00			Outside nest box
+604	M4208_ch1_main_20170607154155_20170607154340	2017-06-06	Center	2017-06-07 15:41:55	2017-06-07 15:43:40	Mother (Medusa)	Out of Sight	42:30			Inside nest box
+596	M4208_ch1_main_20170607152010_20170607152632	2017-06-06	Center	2017-06-07 15:20:10	2017-06-07 15:26:32	Mother (Medusa)	Observing	22:30			Outside nest box
+594	M4208_ch1_main_20170607151723_20170607152010	2017-06-06	Center	2017-06-07 15:17:23	2017-06-07 15:20:10	Mother (Medusa)	Travelling (moving outside nest box)	17:30			Outside nest box
+1264	M4208_ch2_main_20170607135416_20170607135944	2017-06-06	Nest Box X	2017-06-07 13:54:16	2017-06-07 13:59:44	Mother (Medusa)	Constructing Nest	55:00			Inside nest box
+2880	M4208_ch3_main_20170607074548_20170607074826	2017-06-06	Nest Box Z	2017-06-07 07:45:48	2017-06-07 07:48:26	Mother (Medusa)	Sleeping	47:30			Inside nest box
+2538	M4208_ch3_main_20170607045708_20170607050010	2017-06-06	Nest Box Z	2017-06-07 04:57:08	2017-06-07 05:00:10	Mother (Medusa)	Sleeping	57:30			Inside nest box
+2870	M4208_ch3_main_20170607074449_20170607074504	2017-06-06	Nest Box Z	2017-06-07 07:44:49	2017-06-07 07:45:04	Mother (Medusa)	Sleeping	45:00			Inside nest box
+2533	M4208_ch3_main_20170607045457_20170607045541	2017-06-06	Nest Box Z	2017-06-07 04:54:57	2017-06-07 04:55:41	Mother (Medusa)	Moving (inside nest box)	55:00			Inside nest box
+2528	M4208_ch3_main_20170607045146_20170607045312	2017-06-06	Nest Box Z	2017-06-07 04:51:46	2017-06-07 04:53:12	Mother (Medusa)	Sleeping	52:30			Inside nest box
+2525	M4208_ch3_main_20170607044947_20170607045009	2017-06-06	Nest Box Z	2017-06-07 04:49:47	2017-06-07 04:50:09	Mother (Medusa)	Sleeping	50:00			Inside nest box
+2843	M4208_ch3_main_20170607073715_20170607074120	2017-06-06	Nest Box Z	2017-06-07 07:37:15	2017-06-07 07:41:20	Mother (Medusa)	Sleeping	40:00	0:00	4:01	Inside nest box
+2520	M4208_ch3_main_20170607044722_20170607044747	2017-06-06	Nest Box Z	2017-06-07 04:47:22	2017-06-07 04:47:47	Mother (Medusa)	Sleeping	47:30			Inside nest box
+2518	M4208_ch3_main_20170607044402_20170607044641	2017-06-06	Nest Box Z	2017-06-07 04:44:02	2017-06-07 04:46:41	Mother (Medusa)	Sleeping	45:00			Inside nest box
+2884	M4208_ch3_main_20170607074841_20170607075148	2017-06-06	Nest Box Z	2017-06-07 07:48:41	2017-06-07 07:51:48	Mother (Medusa)	Sleeping	50:00			Inside nest box
+2516	M4208_ch3_main_20170607044208_20170607044346	2017-06-06	Nest Box Z	2017-06-07 04:42:08	2017-06-07 04:43:46	Mother (Medusa)	Sleeping	42:30			Inside nest box
+2514	M4208_ch3_main_20170607043938_20170607044145	2017-06-06	Nest Box Z	2017-06-07 04:39:38	2017-06-07 04:41:45	Mother (Medusa)	Sleeping	40:00			Inside nest box
+2512	M4208_ch3_main_20170607043627_20170607043923	2017-06-06	Nest Box Z	2017-06-07 04:36:27	2017-06-07 04:39:23	Mother (Medusa)	Sleeping	47:30			Inside nest box
+2551	M4208_ch3_main_20170607050226_20170607050241	2017-06-06	Nest Box Z	2017-06-07 05:02:26	2017-06-07 05:02:41	Mother (Medusa)	Sleeping	02:30			Inside nest box
+2553	M4208_ch3_main_20170607050332_20170607050622	2017-06-06	Nest Box Z	2017-06-07 05:03:32	2017-06-07 05:06:22	Mother (Medusa)	Sleeping	05:00			Inside nest box
+2741	M4208_ch3_main_20170607065143_20170607065258	2017-06-06	Nest Box Z	2017-06-07 06:51:43	2017-06-07 06:52:58	Mother (Medusa)	Hand auto-grooming	52:30	065206	065234	Inside nest box
+2583	M4208_ch3_main_20170607052214_20170607052311	2017-06-06	Nest Box Z	2017-06-07 05:22:14	2017-06-07 05:23:11	Mother (Medusa)	Hand auto-grooming	22:30	0:17	0:31	Inside nest box
+2581	M4208_ch3_main_20170607051954_20170607052020	2017-06-06	Nest Box Z	2017-06-07 05:19:54	2017-06-07 05:20:20	Mother (Medusa)	Moving (inside nest box)	20:00			Inside nest box
+2578	M4208_ch3_main_20170607051725_20170607051820	2017-06-06	Nest Box Z	2017-06-07 05:17:25	2017-06-07 05:18:20	Mother (Medusa)	Sleeping	17:30			Inside nest box
+2575	M4208_ch3_main_20170607051436_20170607051503	2017-06-06	Nest Box Z	2017-06-07 05:14:36	2017-06-07 05:15:03	Mother (Medusa)	Mouth auto-grooming		0:00	0:10	Inside nest box
+2572	M4208_ch3_main_20170607051327_20170607051350	2017-06-06	Nest Box Z	2017-06-07 05:13:27	2017-06-07 05:13:50	Mother (Medusa)	Hand auto-grooming		0:01	0:08	Inside nest box
+2571	M4208_ch3_main_20170607051309_20170607051327	2017-06-06	Nest Box Z	2017-06-07 05:13:09	2017-06-07 05:13:27	Mother (Medusa)	Hand auto-grooming		0:02	0:17	Inside nest box
+2854	M4208_ch3_main_20170607074212_20170607074238	2017-06-06	Nest Box Z	2017-06-07 07:42:12	2017-06-07 07:42:38	Mother (Medusa)	Sleeping	42:30	0:00	0:25	Inside nest box
+2568	M4208_ch3_main_20170607051147_20170607051234	2017-06-06	Nest Box Z	2017-06-07 05:11:47	2017-06-07 05:12:34	Mother (Medusa)	Sleeping	12:30			Inside nest box
+2556	M4208_ch3_main_20170607050702_20170607050805	2017-06-06	Nest Box Z	2017-06-07 05:07:02	2017-06-07 05:08:05	Mother (Medusa)	Moving (inside nest box)	07:30			Inside nest box
+2889	M4208_ch3_main_20170607075205_20170607075458	2017-06-06	Nest Box Z	2017-06-07 07:52:05	2017-06-07 07:54:58	Mother (Medusa)	Sleeping	52:30	0:00	2:51	Inside nest box
+2507	M4208_ch3_main_20170607043443_20170607043512	2017-06-06	Nest Box Z	2017-06-07 04:34:43	2017-06-07 04:35:12	Mother (Medusa)	Sleeping	35:00			Inside nest box
+2736	M4208_ch3_main_20170607064910_20170607065105	2017-06-06	Nest Box Z	2017-06-07 06:49:10	2017-06-07 06:51:05	Mother (Medusa)	Sleeping	50:00	0:00	1:53	Inside nest box
+2477	M4208_ch3_main_20170607041954_20170607042017	2017-06-06	Nest Box Z	2017-06-07 04:19:54	2017-06-07 04:20:17	Mother (Medusa)	Sleeping	20:00			Inside nest box
+2913	M4208_ch3_main_20170607080412_20170607080510	2017-06-06	Nest Box Z	2017-06-07 08:04:12	2017-06-07 08:05:10	Mother (Medusa)	Sleeping	05:00	080412	080509	Inside nest box
+2923	M4208_ch3_main_20170607080636_20170607080657	2017-06-06	Nest Box Z	2017-06-07 08:06:36	2017-06-07 08:06:57	Mother (Medusa)	Mouth auto-grooming		0:07	0:16	Inside nest box
+2476	M4208_ch3_main_20170607041549_20170607041954	2017-06-06	Nest Box Z	2017-06-07 04:15:49	2017-06-07 04:19:54	Mother (Medusa)	Hand auto-grooming		00:19	00:59	Inside nest box
+2474	M4208_ch3_main_20170607041547_20170607041549	2017-06-06	Nest Box Z	2017-06-07 04:15:47	2017-06-07 04:15:49	Mother (Medusa)	Mouth auto-grooming		0:00	0:02	Inside nest box
+2929	M4208_ch3_main_20170607080718_20170607080735	2017-06-06	Nest Box Z	2017-06-07 08:07:18	2017-06-07 08:07:35	Mother (Medusa)	Sleeping	07:30	0:00	0:17	Inside nest box
+2454	M4208_ch3_main_20170607040454_20170607040637	2017-06-06	Nest Box Z	2017-06-07 04:04:54	2017-06-07 04:06:37	Mother (Medusa)	Sleeping	05:00			Inside nest box
+2481	M4208_ch3_main_20170607042132_20170607042312	2017-06-06	Nest Box Z	2017-06-07 04:21:32	2017-06-07 04:23:12	Mother (Medusa)	Sleeping	22:30			Inside nest box
+2502	M4208_ch3_main_20170607043222_20170607043332	2017-06-06	Nest Box Z	2017-06-07 04:32:22	2017-06-07 04:33:32	Mother (Medusa)	Sleeping	32:30			Inside nest box
+2909	M4208_ch3_main_20170607080043_20170607080340	2017-06-06	Nest Box Z	2017-06-07 08:00:43	2017-06-07 08:03:40	Mother (Medusa)	Sleeping	02:30			Inside nest box
+2498	M4208_ch3_main_20170607042920_20170607043058	2017-06-06	Nest Box Z	2017-06-07 04:29:20	2017-06-07 04:30:58	Mother (Medusa)	Sleeping	30:00			Inside nest box
+2492	M4208_ch3_main_20170607042714_20170607042751	2017-06-06	Nest Box Z	2017-06-07 04:27:14	2017-06-07 04:27:51	Mother (Medusa)	Sleeping	27:30			Inside nest box
+2898	M4208_ch3_main_20170607075725_20170607075740	2017-06-06	Nest Box Z	2017-06-07 07:57:25	2017-06-07 07:57:40	Mother (Medusa)	Sleeping	57:30	0:00	0:15	Inside nest box
+2487	M4208_ch3_main_20170607042441_20170607042600	2017-06-06	Nest Box Z	2017-06-07 04:24:41	2017-06-07 04:26:00	Mother (Medusa)	Sleeping	25:00			Inside nest box
+2482	M4208_ch3_main_20170607042312_20170607042400	2017-06-06	Nest Box Z	2017-06-07 04:23:12	2017-06-07 04:24:00	Mother (Medusa)	Mouth auto-grooming		0:10	0:24	Inside nest box
+2901	M4208_ch3_main_20170607075740_20170607080026	2017-06-06	Nest Box Z	2017-06-07 07:57:40	2017-06-07 08:00:26	Mother (Medusa)	Sleeping	00:00	075740	080025	Inside nest box
+2590	M4208_ch3_main_20170607052449_20170607052536	2017-06-06	Nest Box Z	2017-06-07 05:24:49	2017-06-07 05:25:36	Mother (Medusa)	Sleeping	25:00			Inside nest box
+2791	M4208_ch3_main_20170607070833_20170607070857	2017-06-06	Nest Box Z	2017-06-07 07:08:33	2017-06-07 07:08:57	Mother (Medusa)	Hand auto-grooming		0:00	0:24	Inside nest box
+2654	M4208_ch3_main_20170607061517_20170607061532	2017-06-06	Nest Box Z	2017-06-07 06:15:17	2017-06-07 06:15:32	Mother (Medusa)	Sleeping		0:00	0:14	Inside nest box
+2782	M4208_ch3_main_20170607070129_20170607070428	2017-06-06	Nest Box Z	2017-06-07 07:01:29	2017-06-07 07:04:28	Mother (Medusa)	Sleeping	02:30			Inside nest box
+2788	M4208_ch3_main_20170607070445_20170607070832	2017-06-06	Nest Box Z	2017-06-07 07:04:45	2017-06-07 07:08:32	Mother (Medusa)	Sleeping	05:00			Inside nest box
+1657	M4208_ch2_main_20170607185935_20170607190047	2017-06-06	Nest Box X	2017-06-07 18:59:35	2017-06-07 19:00:47	Mother (Medusa)	Observing	00:00			Inside nest box
+2594	M4208_ch3_main_20170607052711_20170607052824	2017-06-06	Nest Box Z	2017-06-07 05:27:11	2017-06-07 05:28:24	Mother (Medusa)	Sleeping	27:30			Inside nest box
+2794	M4208_ch3_main_20170607070857_20170607070900	2017-06-06	Nest Box Z	2017-06-07 07:08:57	2017-06-07 07:09:00	Mother (Medusa)	Foot auto-grooming		070857	070859	Inside nest box
+2679	M4208_ch3_main_20170607061843_20170607062110	2017-06-06	Nest Box Z	2017-06-07 06:18:43	2017-06-07 06:21:10	Mother (Medusa)	Sleeping	20:00			Inside nest box
+2778	M4208_ch3_main_20170607065820_20170607070111	2017-06-06	Nest Box Z	2017-06-07 06:58:20	2017-06-07 07:01:11	Mother (Medusa)	Sleeping	00:00			Inside nest box
+2672	M4208_ch3_main_20170607061719_20170607061738	2017-06-06	Nest Box Z	2017-06-07 06:17:19	2017-06-07 06:17:38	Mother (Medusa)	Sleeping	17:30	0:00	0:18	Inside nest box
+2750	M4208_ch3_main_20170607065412_20170607065525	2017-06-06	Nest Box Z	2017-06-07 06:54:12	2017-06-07 06:55:25	Mother (Medusa)	Sleeping	55:00	0:00	1:12	Inside nest box
+2769	M4208_ch3_main_20170607065658_20170607065758	2017-06-06	Nest Box Z	2017-06-07 06:56:58	2017-06-07 06:57:58	Mother (Medusa)	Sleeping	57:30	065657	065757	Inside nest box
+2803	M4208_ch3_main_20170607070951_20170607071006	2017-06-06	Nest Box Z	2017-06-07 07:09:51	2017-06-07 07:10:06	Mother (Medusa)	Sleeping	10:00	0:00	0:15	Inside nest box
+2824	M4208_ch3_main_20170607072538_20170607072849	2017-06-06	Nest Box Z	2017-06-07 07:25:38	2017-06-07 07:28:49	Mother (Medusa)	Sleeping	27:30	072538	072848	Inside nest box
+2622	M4208_ch3_main_20170607054457_20170607054503	2017-06-06	Nest Box Z	2017-06-07 05:44:57	2017-06-07 05:45:03	Mother (Medusa)	Sleeping	45:00			Inside nest box
+2830	M4208_ch3_main_20170607072904_20170607073031	2017-06-06	Nest Box Z	2017-06-07 07:29:04	2017-06-07 07:30:31	Mother (Medusa)	Sleeping	30:00	072904	073030	Inside nest box
+2616	M4208_ch3_main_20170607054224_20170607054254	2017-06-06	Nest Box Z	2017-06-07 05:42:24	2017-06-07 05:42:54	Mother (Medusa)	Sleeping	42:30			Inside nest box
+2611	M4208_ch3_main_20170607053948_20170607054023	2017-06-06	Nest Box Z	2017-06-07 05:39:48	2017-06-07 05:40:23	Mother (Medusa)	Sleeping	40:00			Inside nest box
+2607	M4208_ch3_main_20170607053711_20170607053740	2017-06-06	Nest Box Z	2017-06-07 05:37:11	2017-06-07 05:37:40	Mother (Medusa)	Sleeping	37:30			Inside nest box
+2606	M4208_ch3_main_20170607053447_20170607053711	2017-06-06	Nest Box Z	2017-06-07 05:34:47	2017-06-07 05:37:11	Mother (Medusa)	Sleeping	35:00			Inside nest box
+2836	M4208_ch3_main_20170607073047_20170607073700	2017-06-06	Nest Box Z	2017-06-07 07:30:47	2017-06-07 07:37:00	Mother (Medusa)	Sleeping	35:00	0:00	6:08	Inside nest box
+2601	M4208_ch3_main_20170607053219_20170607053248	2017-06-06	Nest Box Z	2017-06-07 05:32:19	2017-06-07 05:32:48	Mother (Medusa)	Moving (inside nest box)	32:30			Inside nest box
+2598	M4208_ch3_main_20170607052952_20170607053008	2017-06-06	Nest Box Z	2017-06-07 05:29:52	2017-06-07 05:30:08	Mother (Medusa)	Sleeping	30:00			Inside nest box
+2627	M4208_ch3_main_20170607054710_20170607054731	2017-06-06	Nest Box Z	2017-06-07 05:47:10	2017-06-07 05:47:31	Mother (Medusa)	Moving (inside nest box)	47:30			Inside nest box
+2631	M4208_ch3_main_20170607054932_20170607055042	2017-06-06	Nest Box Z	2017-06-07 05:49:32	2017-06-07 05:50:42	Mother (Medusa)	Hand auto-grooming	50:00	0:18	0:28	Inside nest box
+2806	M4208_ch3_main_20170607071007_20170607071711	2017-06-06	Nest Box Z	2017-06-07 07:10:07	2017-06-07 07:17:11	Mother (Medusa)	Sleeping	12:30	071006	071710	Inside nest box
+2651	M4208_ch3_main_20170607055958_20170607060013	2017-06-06	Nest Box Z	2017-06-07 05:59:58	2017-06-07 06:00:13	Mother (Medusa)	Sleeping	00:00			Inside nest box
+2812	M4208_ch3_main_20170607071729_20170607072200	2017-06-06	Nest Box Z	2017-06-07 07:17:29	2017-06-07 07:22:00	Mother (Medusa)	Sleeping	17:30	071728	072159	Inside nest box
+2647	M4208_ch3_main_20170607055747_20170607055912	2017-06-06	Nest Box Z	2017-06-07 05:57:47	2017-06-07 05:59:12	Mother (Medusa)	Mouth auto-grooming		0:20	0:35	Inside nest box
+2646	M4208_ch3_main_20170607055723_20170607055747	2017-06-06	Nest Box Z	2017-06-07 05:57:23	2017-06-07 05:57:47	Mother (Medusa)	Sleeping	57:30			Inside nest box
+2641	M4208_ch3_main_20170607055611_20170607055642	2017-06-06	Nest Box Z	2017-06-07 05:56:11	2017-06-07 05:56:42	Mother (Medusa)	Mouth auto-grooming		0:05	0:09	Inside nest box
+2639	M4208_ch3_main_20170607055430_20170607055545	2017-06-06	Nest Box Z	2017-06-07 05:54:30	2017-06-07 05:55:45	Mother (Medusa)	Moving (inside nest box)	55:00			Inside nest box
+2818	M4208_ch3_main_20170607072217_20170607072510	2017-06-06	Nest Box Z	2017-06-07 07:22:17	2017-06-07 07:25:10	Mother (Medusa)	Sleeping	25:00	0:00	2:52	Inside nest box
+2635	M4208_ch3_main_20170607055205_20170607055408	2017-06-06	Nest Box Z	2017-06-07 05:52:05	2017-06-07 05:54:08	Mother (Medusa)	Mouth auto-grooming	55:00	0:33	0:54	Inside nest box
+2446	M4208_ch3_main_20170607040115_20170607040352	2017-06-06	Nest Box Z	2017-06-07 04:01:15	2017-06-07 04:03:52	Mother (Medusa)	Sleeping	02:30			Inside nest box
+2699	M4208_ch3_main_20170607062508_20170607063016	2017-06-06	Nest Box Z	2017-06-07 06:25:08	2017-06-07 06:30:16	Mother (Medusa)	Sleeping	27:30			Inside nest box
+1876	M4208_ch2_main_20170607205221_20170607213000	2017-06-06	Nest Box X	2017-06-07 20:52:21	2017-06-07 21:30:00	Mother (Medusa)	Resting	17:30			Outside nest box
+1864	M4208_ch2_main_20170607204535_20170607205006	2017-06-06	Nest Box X	2017-06-07 20:45:35	2017-06-07 20:50:06	Mother (Medusa)	Out of Sight	47:30			Outside nest box
+1860	M4208_ch2_main_20170607204306_20170607204518	2017-06-06	Nest Box X	2017-06-07 20:43:06	2017-06-07 20:45:18	Mother (Medusa)	Travelling (moving outside nest box)	45:00			Outside nest box
+2683	M4208_ch3_main_20170607062110_20170607062201	2017-06-06	Nest Box Z	2017-06-07 06:21:10	2017-06-07 06:22:01	Mother (Medusa)	Hand auto-grooming		062110	062122	Inside nest box
+1856	M4208_ch2_main_20170607204117_20170607204247	2017-06-06	Nest Box X	2017-06-07 20:41:17	2017-06-07 20:42:47	Mother (Medusa)	Travelling (moving outside nest box)	42:30			Outside nest box
+1848	M4208_ch2_main_20170607203954_20170607204041	2017-06-06	Nest Box X	2017-06-07 20:39:54	2017-06-07 20:40:41	Mother (Medusa)	Constructing Nest	40:00			Inside nest box
+1840	M4208_ch2_main_20170607203724_20170607203802	2017-06-06	Nest Box X	2017-06-07 20:37:24	2017-06-07 20:38:02	Mother (Medusa)	Travelling (moving outside nest box)	37:30			Outside nest box
+1828	M4208_ch2_main_20170607203413_20170607203503	2017-06-06	Nest Box X	2017-06-07 20:34:13	2017-06-07 20:35:03	Mother (Medusa)	Travelling (moving outside nest box)	35:00			Outside nest box
+5812	M4208_ch2_main_20170609193200_20170609193240	2017-06-08	Nest Box X	2017-06-09 19:32:00	2017-06-09 19:32:40	Mother (Medusa)	Resting	32:30			Inside nest box
+5805	M4208_ch2_main_20170609192713_20170609193012	2017-06-08	Nest Box X	2017-06-09 19:27:13	2017-06-09 19:30:12	Mother (Medusa)	Moving (inside nest box)	27:30			Inside nest box
+2687	M4208_ch3_main_20170607062201_20170607062259	2017-06-06	Nest Box Z	2017-06-07 06:22:01	2017-06-07 06:22:59	Mother (Medusa)	Sleeping	22:30	0:00	0:57	Inside nest box
+2938	M4208_ch3_main_20170607080901_20170607081109	2017-06-06	Nest Box Z	2017-06-07 08:09:01	2017-06-07 08:11:09	Mother (Medusa)	Sleeping	10:00	0:00	2:06	Inside nest box
+2695	M4208_ch3_main_20170607062454_20170607062508	2017-06-06	Nest Box Z	2017-06-07 06:24:54	2017-06-07 06:25:08	Mother (Medusa)	Sleeping	25:00			Inside nest box
+5800	M4208_ch2_main_20170609190246_20170609192556	2017-06-08	Nest Box X	2017-06-09 19:02:46	2017-06-09 19:25:56	Mother (Medusa)	Resting	05:00			Inside nest box
+5797	M4208_ch2_main_20170609190229_20170609190246	2017-06-08	Nest Box X	2017-06-09 19:02:29	2017-06-09 19:02:46	Mother (Medusa)	Constructing Nest	02:30			Inside nest box
+1808	M4208_ch2_main_20170607202904_20170607203035	2017-06-06	Nest Box X	2017-06-07 20:29:04	2017-06-07 20:30:35	Mother (Medusa)	Travelling (moving outside nest box)	30:00			Outside nest box
+5817	M4208_ch2_main_20170609193457_20170609193512	2017-06-08	Nest Box X	2017-06-09 19:34:57	2017-06-09 19:35:12	Mother (Medusa)	Moving (inside nest box)	35:00			Inside nest box
+1686	M4208_ch2_main_20170607190944_20170607191036	2017-06-06	Nest Box X	2017-06-07 19:09:44	2017-06-07 19:10:36	Mother (Medusa)	Moving (inside nest box)	10:00			Inside nest box
+1736	M4208_ch2_main_20170607194425_20170607194526	2017-06-06	Nest Box X	2017-06-07 19:44:25	2017-06-07 19:45:26	Mother (Medusa)	Constructing Nest	45:00			Inside nest box
+1716	M4208_ch2_main_20170607193307_20170607193846	2017-06-06	Nest Box X	2017-06-07 19:33:07	2017-06-07 19:38:46	Mother (Medusa)	Constructing Nest	35:00			Inside nest box
+1712	M4208_ch2_main_20170607192834_20170607193253	2017-06-06	Nest Box X	2017-06-07 19:28:34	2017-06-07 19:32:53	Mother (Medusa)	Medusa had a piece of browse in her mouth and she was trying to climb into Nest Box X.	30:00			Outside nest box
+1710	M4208_ch2_main_20170607192601_20170607192834	2017-06-06	Nest Box X	2017-06-07 19:26:01	2017-06-07 19:28:34	Mother (Medusa)	Travelling (moving outside nest box)	27:30			Outside nest box
+1746	M4208_ch2_main_20170607194957_20170607195008	2017-06-06	Nest Box X	2017-06-07 19:49:57	2017-06-07 19:50:08	Mother (Medusa)	Travelling (moving outside nest box)	50:00			Inside nest box
+1683	M4208_ch2_main_20170607190353_20170607190944	2017-06-06	Nest Box X	2017-06-07 19:03:53	2017-06-07 19:09:44	Mother (Medusa)	Out of Sight	05:00			Outside nest box
+5823	M4208_ch2_main_20170609193635_20170609193737	2017-06-08	Nest Box X	2017-06-09 19:36:35	2017-06-09 19:37:37	Mother (Medusa)	Moving (inside nest box)	37:30			Inside nest box
+5832	M4208_ch2_main_20170609193942_20170609200000	2017-06-08	Nest Box X	2017-06-09 19:39:42	2017-06-09 20:00:00	Mother (Medusa)	Moving (inside nest box)	40:00			Inside nest box
+1755	M4208_ch2_main_20170607195140_20170607195307	2017-06-06	Nest Box X	2017-06-07 19:51:40	2017-06-07 19:53:07	Mother (Medusa)	Constructing Nest	52:30			Inside nest box
+1800	M4208_ch2_main_20170607202627_20170607202832	2017-06-06	Nest Box X	2017-06-07 20:26:27	2017-06-07 20:28:32	Mother (Medusa)	Constructing Nest	27:30			Inside nest box
+1784	M4208_ch2_main_20170607200307_20170607200755	2017-06-06	Nest Box X	2017-06-07 20:03:07	2017-06-07 20:07:55	Mother (Medusa)	Constructing Nest	05:00			Inside nest box
+1794	M4208_ch2_main_20170607202320_20170607202508	2017-06-06	Nest Box X	2017-06-07 20:23:20	2017-06-07 20:25:08	Mother (Medusa)	Travelling (moving outside nest box)	25:00			Outside nest box
+1792	M4208_ch2_main_20170607201125_20170607202319	2017-06-06	Nest Box X	2017-06-07 20:11:25	2017-06-07 20:23:19	Mother (Medusa)	Travelling (moving outside nest box)	12:30			Outside nest box
+1788	M4208_ch2_main_20170607200800_20170607201116	2017-06-06	Nest Box X	2017-06-07 20:08:00	2017-06-07 20:11:16	Mother (Medusa)	Constructing Nest	10:00			Inside nest box
+1781	M4208_ch2_main_20170607200204_20170607200257	2017-06-06	Nest Box X	2017-06-07 20:02:04	2017-06-07 20:02:57	Mother (Medusa)	Constructing Nest	02:30			Inside nest box
+1777	M4208_ch2_main_20170607195914_20170607200155	2017-06-06	Nest Box X	2017-06-07 19:59:14	2017-06-07 20:01:55	Mother (Medusa)	Constructing Nest	00:00			Inside nest box
+1769	M4208_ch2_main_20170607195616_20170607195800	2017-06-06	Nest Box X	2017-06-07 19:56:16	2017-06-07 19:58:00	Mother (Medusa)	Constructing Nest	57:30			Inside nest box
+1765	M4208_ch2_main_20170607195408_20170607195554	2017-06-06	Nest Box X	2017-06-07 19:54:08	2017-06-07 19:55:54	Mother (Medusa)	Travelling (moving outside nest box)	55:00			Outside nest box
+2963	M4208_ch3_main_20170607081628_20170607081838	2017-06-06	Nest Box Z	2017-06-07 08:16:28	2017-06-07 08:18:38	Mother (Medusa)	Sleeping	17:30			Inside nest box
+2405	M4208_ch3_main_20170607032313_20170607032524	2017-06-06	Nest Box Z	2017-06-07 03:23:13	2017-06-07 03:25:24	Mother (Medusa)	Sleeping	25:00			Inside nest box
+2968	M4208_ch3_main_20170607081943_20170607082115	2017-06-06	Nest Box Z	2017-06-07 08:19:43	2017-06-07 08:21:15	Mother (Medusa)	Sleeping	20:00	081942	082114	Inside nest box
+2732	M4208_ch3_main_20170607064539_20170607064910	2017-06-06	Nest Box Z	2017-06-07 06:45:39	2017-06-07 06:49:10	Mother (Medusa)	Sleeping	47:30			Inside nest box
+2402	M4208_ch3_main_20170607032050_20170607032251	2017-06-06	Nest Box Z	2017-06-07 03:20:50	2017-06-07 03:22:51	Mother (Medusa)	Sleeping	22:30			Inside nest box
+2384	M4208_ch3_main_20170607031703_20170607031732	2017-06-06	Nest Box Z	2017-06-07 03:17:03	2017-06-07 03:17:32	Mother (Medusa)	Sleeping	17:30			Inside nest box
+2974	M4208_ch3_main_20170607082143_20170607082327	2017-06-06	Nest Box Z	2017-06-07 08:21:43	2017-06-07 08:23:27	Mother (Medusa)	Sleeping	22:30	082142	082326	Inside nest box
+2374	M4208_ch3_main_20170607031414_20170607031556	2017-06-06	Nest Box Z	2017-06-07 03:14:14	2017-06-07 03:15:56	Mother (Medusa)	Sleeping	15:00			Inside nest box
+2360	M4208_ch3_main_20170607031223_20170607031252	2017-06-06	Nest Box Z	2017-06-07 03:12:23	2017-06-07 03:12:52	Mother (Medusa)	Sleeping	12:30			Inside nest box
+2950	M4208_ch3_main_20170607081258_20170607081524	2017-06-06	Nest Box Z	2017-06-07 08:12:58	2017-06-07 08:15:24	Mother (Medusa)	Sleeping	15:00	0:00	2:24	Inside nest box
+2418	M4208_ch3_main_20170607032825_20170607033042	2017-06-06	Nest Box Z	2017-06-07 03:28:25	2017-06-07 03:30:42	Mother (Medusa)	Sleeping	30:00			Inside nest box
+2412	M4208_ch3_main_20170607032700_20170607032749	2017-06-06	Nest Box Z	2017-06-07 03:27:00	2017-06-07 03:27:49	Mother (Medusa)	Sleeping	27:30			Inside nest box
+5748	M4208_ch2_main_20170609184717_20170609184858	2017-06-08	Nest Box X	2017-06-09 18:47:17	2017-06-09 18:48:58	Mother (Medusa)	Constructing Nest			Inside nest box	manipulating blanket
+5764	M4208_ch2_main_20170609185205_20170609185233	2017-06-08	Nest Box X	2017-06-09 18:52:05	2017-06-09 18:52:33	Mother (Medusa)	Constructing Nest	52:30			Inside nest box
+2722	M4208_ch3_main_20170607063937_20170607064358	2017-06-06	Nest Box Z	2017-06-07 06:39:37	2017-06-07 06:43:58	Mother (Medusa)	Sleeping	40:00			Inside nest box
+5753	M4208_ch2_main_20170609184943_20170609185001	2017-06-08	Nest Box X	2017-06-09 18:49:43	2017-06-09 18:50:01	Mother (Medusa)	Constructing Nest	50:00			Inside nest box
+2716	M4208_ch3_main_20170607063314_20170607063918	2017-06-06	Nest Box Z	2017-06-07 06:33:14	2017-06-07 06:39:18	Mother (Medusa)	Sleeping	35:00			Inside nest box
+2710	M4208_ch3_main_20170607063116_20170607063257	2017-06-06	Nest Box Z	2017-06-07 06:31:16	2017-06-07 06:32:57	Mother (Medusa)	Sleeping	32:30			Inside nest box
+2350	M4208_ch3_main_20170607030925_20170607031048	2017-06-06	Nest Box Z	2017-06-07 03:09:25	2017-06-07 03:10:48	Mother (Medusa)	Sleeping	10:00			Inside nest box
+2342	M4208_ch3_main_20170607030341_20170607030716	2017-06-06	Nest Box Z	2017-06-07 03:03:41	2017-06-07 03:07:16	Mother (Medusa)	Sleeping	05:00			Inside nest box
+3000	M4208_ch3_main_20170607082711_20170607082805	2017-06-06	Nest Box Z	2017-06-07 08:27:11	2017-06-07 08:28:05	Mother (Medusa)	Sleeping	27:30			Inside nest box
+3628	M4208_ch1_main_20170608123705_20170608124354	2017-06-07	Center	2017-06-08 12:37:05	2017-06-08 12:43:54	Mother (Medusa)	Foot auto-grooming	00:00	0:30	0:42	Outside nest box
+3122	M4208_ch3_main_20170607091443_20170607091727	2017-06-06	Nest Box Z	2017-06-07 09:14:43	2017-06-07 09:17:27	Mother (Medusa)	Resting	15:00			Inside nest box
+3180	M4208_ch3_main_20170607093828_20170607094153	2017-06-06	Nest Box Z	2017-06-07 09:38:28	2017-06-07 09:41:53	Mother (Medusa)	Hand auto-grooming	40:00	1:10	1:53	Inside nest box
+3170	M4208_ch3_main_20170607093328_20170607093535	2017-06-06	Nest Box Z	2017-06-07 09:33:28	2017-06-07 09:35:35	Mother (Medusa)	Hand auto-grooming		0:10	0:13	Inside nest box
+3061	M4208_ch3_main_20170607085412_20170607090218	2017-06-06	Nest Box Z	2017-06-07 08:54:12	2017-06-07 09:02:18	Mother (Medusa)	Hand auto-grooming		6:45	6:47	Inside nest box
+3037	M4208_ch3_main_20170607083707_20170607083750	2017-06-06	Nest Box Z	2017-06-07 08:37:07	2017-06-07 08:37:50	Mother (Medusa)	Sleeping		083735	083749	Inside nest box
+3087	M4208_ch3_main_20170607090642_20170607090749	2017-06-06	Nest Box Z	2017-06-07 09:06:42	2017-06-07 09:07:49	Mother (Medusa)	Resting	07:30			Inside nest box
+3838	M4208_ch1_main_20170608150725_20170608150739	2017-06-07	Center	2017-06-08 15:07:25	2017-06-08 15:07:39	Mother (Medusa)	Foot auto-grooming	00:00	0:07	0:14	Outside nest box
+3846	M4208_ch1_main_20170608151123_20170608151315	2017-06-07	Center	2017-06-08 15:11:23	2017-06-08 15:13:15	Mother (Medusa)	Foot auto-grooming		1:24	1:28	Inside nest box
+3852	M4208_ch1_main_20170608152143_20170608152519	2017-06-07	Center	2017-06-08 15:21:43	2017-06-08 15:25:19	Mother (Medusa)	Travelling (moving outside nest box)	02:30	2:31	2:57	Outside nest box
+4130	M4208_ch2_main_20170608124120_20170608124137	2017-06-07	Nest Box X	2017-06-08 12:41:20	2017-06-08 12:41:37	Mother (Medusa)	00:08	00:14	Outside nest box		Mother
+3746	M4208_ch1_main_20170608140845_20170608141002	2017-06-07	Center	2017-06-08 14:08:45	2017-06-08 14:10:02	Mother (Medusa)	Foot auto-grooming	00:00	1:05	1:14	Outside nest box
+3185	M4208_ch3_main_20170607094154_20170607094427	2017-06-06	Nest Box Z	2017-06-07 09:41:54	2017-06-07 09:44:27	Mother (Medusa)	Hand auto-grooming	42:30	1:05	1:42	Inside nest box
+3220	M4208_ch3_main_20170607101442_20170607101527	2017-06-06	Nest Box Z	2017-06-07 10:14:42	2017-06-07 10:15:27	Mother (Medusa)	Foot auto-grooming		0:21	0:25	Outside nest box
+4126	M4208_ch2_main_20170608123827_20170608124002	2017-06-07	Nest Box X	2017-06-08 12:38:27	2017-06-08 12:40:02	Mother (Medusa)	00:50	01:34	Outside nest box		Mother
+1166	M4208_ch2_main_20170607122705_20170607123015	2017-06-06	Nest Box X	2017-06-07 12:27:05	2017-06-07 12:30:15	Mother (Medusa)	Travelling (moving outside nest box)	30:00			Outside nest box
+1154	M4208_ch2_main_20170607121800_20170607122244	2017-06-06	Nest Box X	2017-06-07 12:18:00	2017-06-07 12:22:44	Mother (Medusa)	Travelling (moving outside nest box)	22:30			Outside nest box
+1262	M4208_ch2_main_20170607134800_20170607135335	2017-06-06	Nest Box X	2017-06-07 13:48:00	2017-06-07 13:53:35	Mother (Medusa)	Out of Sight	52:30			Outside nest box
+965	M4208_ch2_main_20170607105427_20170607105805	2017-06-06	Nest Box X	2017-06-07 10:54:27	2017-06-07 10:58:05	Mother (Medusa)	Observing	57:30			Inside nest box
+940	M4208_ch2_main_20170607103718_20170607103934	2017-06-06	Nest Box X	2017-06-07 10:37:18	2017-06-07 10:39:34	Mother (Medusa)	Constructing Nest				Inside nest box
+936	M4208_ch2_main_20170607103441_20170607103716	2017-06-06	Nest Box X	2017-06-07 10:34:41	2017-06-07 10:37:16	Mother (Medusa)	Travelling (moving outside nest box)				Inside nest box
+5842	M4208_ch2_main_20170609202702_20170609202830	2017-06-08	Nest Box X	2017-06-09 20:27:02	2017-06-09 20:28:30	Mother (Medusa)	Foot auto-grooming		1:19	1:26	Inside nest box
+1482	M4208_ch2_main_20170607173709_20170607175215	2017-06-06	Nest Box X	2017-06-07 17:37:09	2017-06-07 17:52:15	Mother (Medusa)	Constructing Nest	40:00			Outside nest box
+1461	M4208_ch2_main_20170607171656_20170607172004	2017-06-06	Nest Box X	2017-06-07 17:16:56	2017-06-07 17:20:04	Mother (Medusa)	Travelling (moving outside nest box)	20:00			Inside nest box
+1522	M4208_ch2_main_20170607181320_20170607181626	2017-06-06	Nest Box X	2017-06-07 18:13:20	2017-06-07 18:16:26	Mother (Medusa)	Hand auto-grooming		2:31	2:36	Inside nest box
+844	M4208_ch1_main_20170607200811_20170607202147	2017-06-06	Center	2017-06-07 20:08:11	2017-06-07 20:21:47	Mother (Medusa)	Constructing Nest	12:30			Outside nest box
+842	M4208_ch1_main_20170607195924_20170607200749	2017-06-06	Center	2017-06-07 19:59:24	2017-06-07 20:07:49	Mother (Medusa)	Out of Sight	02:30			Inside nest box
+354	M4208_ch1_main_20170607124551_20170607125545	2017-06-06	Center	2017-06-07 12:45:51	2017-06-07 12:55:45	Mother (Medusa)	Observing	50:00			Outside nest box
+319	M4208_ch1_main_20170607121812_20170607122236	2017-06-06	Center	2017-06-07 12:18:12	2017-06-07 12:22:36	Mother (Medusa)	Observing	22:30			Outside nest box
+430	M4208_ch1_main_20170607135347_20170607140115	2017-06-06	Center	2017-06-07 13:53:47	2017-06-07 14:01:15	Mother (Medusa)	Constructing Nest	57:30			Inside nest box
+407	M4208_ch1_main_20170607133516_20170607133908	2017-06-06	Center	2017-06-07 13:35:16	2017-06-07 13:39:08	Mother (Medusa)	Mouth auto-grooming		35:29	35:41	Outside nest box
+379	M4208_ch1_main_20170607132033_20170607132617	2017-06-06	Center	2017-06-07 13:20:33	2017-06-07 13:26:17	Mother (Medusa)	Out of Sight	25:00			Outside nest box
+120	M4208_ch1_main_20170607103126_20170607103836	2017-06-06	Center	2017-06-07 10:31:26	2017-06-07 10:38:36	Mother (Medusa)	Travelling (moving outside nest box)	35:00			Outside nest box
+74	M4208_ch1_main_20170607100000_20170607100914	2017-06-06	Center	2017-06-07 10:00:00	2017-06-07 10:09:14	Mother (Medusa)	Moving (inside nest box)	02:30			Inside nest box
+773	M4208_ch1_main_20170607182116_20170607182537	2017-06-06	Center	2017-06-07 18:21:16	2017-06-07 18:25:37	Mother (Medusa)	Out of Sight	25:00			Outside nest box
+769	M4208_ch1_main_20170607181006_20170607181646	2017-06-06	Center	2017-06-07 18:10:06	2017-06-07 18:16:46	Mother (Medusa)	Out of Sight	15:00			Outside nest box
+762	M4208_ch1_main_20170607180000_20170607180648	2017-06-06	Center	2017-06-07 18:00:00	2017-06-07 18:06:48	Mother (Medusa)	Constructing Nest				Outside nest box
+743	M4208_ch1_main_20170607170349_20170607171337	2017-06-06	Center	2017-06-07 17:03:49	2017-06-07 17:13:37	Mother (Medusa)	Constructing Nest	07:30			Outside nest box
+717	M4208_ch1_main_20170607164150_20170607164958	2017-06-06	Center	2017-06-07 16:41:50	2017-06-07 16:49:58	Mother (Medusa)	Out of Sight	45:00			Inside nest box
+771	M4208_ch1_main_20170607181724_20170607182101	2017-06-06	Center	2017-06-07 18:17:24	2017-06-07 18:21:01	Mother (Medusa)	Constructing Nest	20:00			Outside nest box
+835	M4208_ch1_main_20170607195003_20170607195611	2017-06-06	Center	2017-06-07 19:50:03	2017-06-07 19:56:11	Mother (Medusa)	Travelling (moving outside nest box)	55:00			Outside nest box
+825	M4208_ch1_main_20170607192612_20170607194030	2017-06-06	Center	2017-06-07 19:26:12	2017-06-07 19:40:30	Mother (Medusa)	Constructing Nest	30:00			Outside nest box
+821	M4208_ch1_main_20170607191800_20170607192442	2017-06-06	Center	2017-06-07 19:18:00	2017-06-07 19:24:42	Mother (Medusa)	Out of Sight	22:30			Inside nest box
+819	M4208_ch1_main_20170607191057_20170607191744	2017-06-06	Center	2017-06-07 19:10:57	2017-06-07 19:17:44	Mother (Medusa)	Out of Sight	15:00			Inside nest box
+801	M4208_ch1_main_20170607185410_20170607190051	2017-06-06	Center	2017-06-07 18:54:10	2017-06-07 19:00:51	Mother (Medusa)	Travelling (moving outside nest box)	57:30			Outside nest box
+799	M4208_ch1_main_20170607184437_20170607185346	2017-06-06	Center	2017-06-07 18:44:37	2017-06-07 18:53:46	Mother (Medusa)	Out of Sight	47:30			Outside nest box
+783	M4208_ch1_main_20170607183204_20170607183549	2017-06-06	Center	2017-06-07 18:32:04	2017-06-07 18:35:49	Mother (Medusa)	Foraging (mother)	35:00			Outside nest box
+520	M4208_ch1_main_20170607143429_20170607143754	2017-06-06	Center	2017-06-07 14:34:29	2017-06-07 14:37:54	Mother (Medusa)	Mouth auto-grooming		1:09	1:23	Outside nest box
+505	M4208_ch1_main_20170607143127_20170607143146	2017-06-06	Center	2017-06-07 14:31:27	2017-06-07 14:31:46	Mother (Medusa)	Mouth auto-grooming		31:38	31:39	Outside nest box
+497	M4208_ch1_main_20170607142749_20170607143051	2017-06-06	Center	2017-06-07 14:27:49	2017-06-07 14:30:51	Mother (Medusa)	Hand auto-grooming		28:00	28:00	Outside nest box
+462	M4208_ch1_main_20170607141149_20170607142010	2017-06-06	Center	2017-06-07 14:11:49	2017-06-07 14:20:10	Mother (Medusa)	Out of Sight	15:00			Outside nest box
+680	M4208_ch1_main_20170607162346_20170607162822	2017-06-06	Center	2017-06-07 16:23:46	2017-06-07 16:28:22	Mother (Medusa)	Out of Sight	27:30			Inside nest box
+596	M4208_ch1_main_20170607152010_20170607152632	2017-06-06	Center	2017-06-07 15:20:10	2017-06-07 15:26:32	Mother (Medusa)	Travelling (moving outside nest box)	25:00			Outside nest box
+594	M4208_ch1_main_20170607151723_20170607152010	2017-06-06	Center	2017-06-07 15:17:23	2017-06-07 15:20:10	Mother (Medusa)	Out of Sight	20:00			Outside nest box
+1264	M4208_ch2_main_20170607135416_20170607135944	2017-06-06	Nest Box X	2017-06-07 13:54:16	2017-06-07 13:59:44	Mother (Medusa)	Travelling (moving outside nest box)	57:30			Outside nest box
+2741	M4208_ch3_main_20170607065143_20170607065258	2017-06-06	Nest Box Z	2017-06-07 06:51:43	2017-06-07 06:52:58	Mother (Medusa)	Mouth auto-grooming		065248	065251	Inside nest box
+2575	M4208_ch3_main_20170607051436_20170607051503	2017-06-06	Nest Box Z	2017-06-07 05:14:36	2017-06-07 05:15:03	Mother (Medusa)	Sleeping	15:00			Inside nest box
+2476	M4208_ch3_main_20170607041549_20170607041954	2017-06-06	Nest Box Z	2017-06-07 04:15:49	2017-06-07 04:19:54	Mother (Medusa)	Hand auto-grooming		01:02	01:42	Inside nest box
+2806	M4208_ch3_main_20170607071007_20170607071711	2017-06-06	Nest Box Z	2017-06-07 07:10:07	2017-06-07 07:17:11	Mother (Medusa)	Sleeping	15:00	071006	171710	Inside nest box
+5805	M4208_ch2_main_20170609192713_20170609193012	2017-06-08	Nest Box X	2017-06-09 19:27:13	2017-06-09 19:30:12	Mother (Medusa)	Resting	30:00			Inside nest box
+1716	M4208_ch2_main_20170607193307_20170607193846	2017-06-06	Nest Box X	2017-06-07 19:33:07	2017-06-07 19:38:46	Mother (Medusa)	Travelling (moving outside nest box)	37:30			Outside nest box
+1712	M4208_ch2_main_20170607192834_20170607193253	2017-06-06	Nest Box X	2017-06-07 19:28:34	2017-06-07 19:32:53	Mother (Medusa)	Medusa was closer to the middle of the enclosure and it looked like she was chewing on a piece of browse.	32:30			Outside nest box
+5832	M4208_ch2_main_20170609193942_20170609200000	2017-06-08	Nest Box X	2017-06-09 19:39:42	2017-06-09 20:00:00	Mother (Medusa)	Resting	42:30			Inside nest box
+1792	M4208_ch2_main_20170607201125_20170607202319	2017-06-06	Nest Box X	2017-06-07 20:11:25	2017-06-07 20:23:19	Mother (Medusa)	Observing	15:00			Outside nest box
+3628	M4208_ch1_main_20170608123705_20170608124354	2017-06-07	Center	2017-06-08 12:37:05	2017-06-08 12:43:54	Mother (Medusa)	Travelling (moving outside nest box)	00:00	0:56	1:07	Outside nest box
+3122	M4208_ch3_main_20170607091443_20170607091727	2017-06-06	Nest Box Z	2017-06-07 09:14:43	2017-06-07 09:17:27	Mother (Medusa)	Hand auto-grooming		0:35	0:48	Inside nest box
+3180	M4208_ch3_main_20170607093828_20170607094153	2017-06-06	Nest Box Z	2017-06-07 09:38:28	2017-06-07 09:41:53	Mother (Medusa)	Hand auto-grooming		2:14	3:14	Inside nest box
+3170	M4208_ch3_main_20170607093328_20170607093535	2017-06-06	Nest Box Z	2017-06-07 09:33:28	2017-06-07 09:35:35	Mother (Medusa)	Hand auto-grooming		0:31	0:35	Inside nest box
+3061	M4208_ch3_main_20170607085412_20170607090218	2017-06-06	Nest Box Z	2017-06-07 08:54:12	2017-06-07 09:02:18	Mother (Medusa)	Mouth auto-grooming		6:48	6:53	Inside nest box
+5454	M4208_ch2_main_20170609171230_20170609172007	2017-06-08	Nest Box X	2017-06-09 17:12:30	2017-06-09 17:20:07	Mother (Medusa)	Moving (inside nest box)	20:00			Inside nest box
+3852	M4208_ch1_main_20170608152143_20170608152519	2017-06-07	Center	2017-06-08 15:21:43	2017-06-08 15:25:19	Mother (Medusa)	Travelling (moving outside nest box)	02:30	3:26	3:33	Outside nest box
+940	M4208_ch2_main_20170607103718_20170607103934	2017-06-06	Nest Box X	2017-06-07 10:37:18	2017-06-07 10:39:34	Mother (Medusa)	Observing				Inside nest box
+1482	M4208_ch2_main_20170607173709_20170607175215	2017-06-06	Nest Box X	2017-06-07 17:37:09	2017-06-07 17:52:15	Mother (Medusa)	Hand auto-grooming		40:27	40:29	Inside nest box
+844	M4208_ch1_main_20170607200811_20170607202147	2017-06-06	Center	2017-06-07 20:08:11	2017-06-07 20:21:47	Mother (Medusa)	Travelling (moving outside nest box)	15:00			Outside nest box
+412	M4208_ch1_main_20170607133942_20170607134610	2017-06-06	Center	2017-06-07 13:39:42	2017-06-07 13:46:10	Mother (Medusa)	Constructing Nest	45:00			Inside nest box
+407	M4208_ch1_main_20170607133516_20170607133908	2017-06-06	Center	2017-06-07 13:35:16	2017-06-07 13:39:08	Mother (Medusa)	Foot auto-grooming		35:44	35:52	Outside nest box
+132	M4208_ch1_main_20170607104020_20170607104734	2017-06-06	Center	2017-06-07 10:40:20	2017-06-07 10:47:34	Mother (Medusa)	Travelling (moving outside nest box)	47:30			Outside nest box
+743	M4208_ch1_main_20170607170349_20170607171337	2017-06-06	Center	2017-06-07 17:03:49	2017-06-07 17:13:37	Mother (Medusa)	Out of Sight	10:00			Inside nest box
+825	M4208_ch1_main_20170607192612_20170607194030	2017-06-06	Center	2017-06-07 19:26:12	2017-06-07 19:40:30	Mother (Medusa)	unidentifiable behavior due to Medusa being partially blocked by beam	32:30			Outside nest box
+799	M4208_ch1_main_20170607184437_20170607185346	2017-06-06	Center	2017-06-07 18:44:37	2017-06-07 18:53:46	Mother (Medusa)	Observing	50:00			Outside nest box
+520	M4208_ch1_main_20170607143429_20170607143754	2017-06-06	Center	2017-06-07 14:34:29	2017-06-07 14:37:54	Mother (Medusa)	Hand auto-grooming		1:24	1:42	Outside nest box
+497	M4208_ch1_main_20170607142749_20170607143051	2017-06-06	Center	2017-06-07 14:27:49	2017-06-07 14:30:51	Mother (Medusa)	Hand auto-grooming		28:22	28:26	Outside nest box
+2476	M4208_ch3_main_20170607041549_20170607041954	2017-06-06	Nest Box Z	2017-06-07 04:15:49	2017-06-07 04:19:54	Mother (Medusa)	Hand auto-grooming	17:30			Inside nest box
+1792	M4208_ch2_main_20170607201125_20170607202319	2017-06-06	Nest Box X	2017-06-07 20:11:25	2017-06-07 20:23:19	Mother (Medusa)	Hand auto-grooming	17:30	5:58	6:10	Inside nest box
+3628	M4208_ch1_main_20170608123705_20170608124354	2017-06-07	Center	2017-06-08 12:37:05	2017-06-08 12:43:54	Mother (Medusa)	Hand auto-grooming	00:00	1:57	2:09	Outside nest box
+3122	M4208_ch3_main_20170607091443_20170607091727	2017-06-06	Nest Box Z	2017-06-07 09:14:43	2017-06-07 09:17:27	Mother (Medusa)	Hand auto-grooming		0:53	0:57	Inside nest box
+3170	M4208_ch3_main_20170607093328_20170607093535	2017-06-06	Nest Box Z	2017-06-07 09:33:28	2017-06-07 09:35:35	Mother (Medusa)	Mouth auto-grooming		0:36	1:19	Inside nest box
+4143	M4208_ch2_main_20170608134513_20170608142000	2017-06-07	Nest Box X	2017-06-08 13:45:13	2017-06-08 14:20:00	Mother (Medusa)	Outside nest box		Mother	Mother	
+3061	M4208_ch3_main_20170607085412_20170607090218	2017-06-06	Nest Box Z	2017-06-07 08:54:12	2017-06-07 09:02:18	Mother (Medusa)	Hand auto-grooming		6:54	6:57	Inside nest box
+4173	M4208_ch2_main_20170608151232_20170608152548	2017-06-07	Nest Box X	2017-06-08 15:12:32	2017-06-08 15:25:48	Mother (Medusa)	Outside nest box		Mother	Mother	
+4193	M4208_ch2_main_20170608153821_20170608155029	2017-06-07	Nest Box X	2017-06-08 15:38:21	2017-06-08 15:50:29	Mother (Medusa)	Outside nest box		Mother	Mother	
+4136	M4208_ch2_main_20170608124826_20170608130534	2017-06-07	Nest Box X	2017-06-08 12:48:26	2017-06-08 13:05:34	Mother (Medusa)	Outside nest box		Mother	Mother	
+4148	M4208_ch2_main_20170608142101_20170608144629	2017-06-07	Nest Box X	2017-06-08 14:21:01	2017-06-08 14:46:29	Mother (Medusa)	Outside nest box		Mother	Mother	
+4138	M4208_ch2_main_20170608130550_20170608132209	2017-06-07	Nest Box X	2017-06-08 13:05:50	2017-06-08 13:22:09	Mother (Medusa)	Outside nest box		Mother	Mother	
+5339	M4208_ch2_main_20170609154007_20170609160000	2017-06-08	Nest Box X	2017-06-09 15:40:07	2017-06-09 16:00:00	Mother (Medusa)	Inside nest box		Mother	Mother	none
+354	M4208_ch1_main_20170607124551_20170607125545	2017-06-06	Center	2017-06-07 12:45:51	2017-06-07 12:55:45	Mother (Medusa)	Constructing Nest	55:00			Inside nest box
+407	M4208_ch1_main_20170607133516_20170607133908	2017-06-06	Center	2017-06-07 13:35:16	2017-06-07 13:39:08	Mother (Medusa)	Mouth auto-grooming		37:02	37:09	Outside nest box
+497	M4208_ch1_main_20170607142749_20170607143051	2017-06-06	Center	2017-06-07 14:27:49	2017-06-07 14:30:51	Mother (Medusa)	Observing	30:00			Outside nest box
+3628	M4208_ch1_main_20170608123705_20170608124354	2017-06-07	Center	2017-06-08 12:37:05	2017-06-08 12:43:54	Mother (Medusa)	Hand auto-grooming	02:30	3:20	4:47	Outside nest box
+3122	M4208_ch3_main_20170607091443_20170607091727	2017-06-06	Nest Box Z	2017-06-07 09:14:43	2017-06-07 09:17:27	Mother (Medusa)	Hand auto-grooming		1:06	1:45	Inside nest box
+3170	M4208_ch3_main_20170607093328_20170607093535	2017-06-06	Nest Box Z	2017-06-07 09:33:28	2017-06-07 09:35:35	Mother (Medusa)	Hand auto-grooming		1:19	1:28	Inside nest box
+3061	M4208_ch3_main_20170607085412_20170607090218	2017-06-06	Nest Box Z	2017-06-07 08:54:12	2017-06-07 09:02:18	Mother (Medusa)	Mouth auto-grooming		6:58	7:02	Inside nest box
+407	M4208_ch1_main_20170607133516_20170607133908	2017-06-06	Center	2017-06-07 13:35:16	2017-06-07 13:39:08	Mother (Medusa)	Hand auto-grooming		37:16	37:19	Outside nest box
+5800	M4208_ch2_main_20170609190246_20170609192556	2017-06-08	Nest Box X	2017-06-09 19:02:46	2017-06-09 19:25:56	Mother (Medusa)	Sleeping	15:00			Inside nest box
+1792	M4208_ch2_main_20170607201125_20170607202319	2017-06-06	Nest Box X	2017-06-07 20:11:25	2017-06-07 20:23:19	Mother (Medusa)	Moving (inside nest box)	22:30			Inside nest box
+3628	M4208_ch1_main_20170608123705_20170608124354	2017-06-07	Center	2017-06-08 12:37:05	2017-06-08 12:43:54	Mother (Medusa)	Travelling (moving outside nest box)	02:30	4:48	4:54	Outside nest box
+3122	M4208_ch3_main_20170607091443_20170607091727	2017-06-06	Nest Box Z	2017-06-07 09:14:43	2017-06-07 09:17:27	Mother (Medusa)	Mouth allo-grooming		1:46	1:50	Inside nest box
+4143	M4208_ch2_main_20170608134513_20170608142000	2017-06-07	Nest Box X	2017-06-08 13:45:13	2017-06-08 14:20:00	Mother (Medusa)	Mother	Mother		Yes	Out of Sight
+3061	M4208_ch3_main_20170607085412_20170607090218	2017-06-06	Nest Box Z	2017-06-07 08:54:12	2017-06-07 09:02:18	Mother (Medusa)	Hand auto-grooming		7:07	7:14	Inside nest box
+4136	M4208_ch2_main_20170608124826_20170608130534	2017-06-07	Nest Box X	2017-06-08 12:48:26	2017-06-08 13:05:34	Mother (Medusa)	Mother	Mother		Yes	Out of Sight
+4148	M4208_ch2_main_20170608142101_20170608144629	2017-06-07	Nest Box X	2017-06-08 14:21:01	2017-06-08 14:46:29	Mother (Medusa)	Mother	Mother		Yes	Out of Sight
+4138	M4208_ch2_main_20170608130550_20170608132209	2017-06-07	Nest Box X	2017-06-08 13:05:50	2017-06-08 13:22:09	Mother (Medusa)	Mother	Mother		Yes	Out of Sight
+5339	M4208_ch2_main_20170609154007_20170609160000	2017-06-08	Nest Box X	2017-06-09 15:40:07	2017-06-09 16:00:00	Mother (Medusa)	Mother	Mother	none	Yes	Resting
+407	M4208_ch1_main_20170607133516_20170607133908	2017-06-06	Center	2017-06-07 13:35:16	2017-06-07 13:39:08	Mother (Medusa)	Hanging upside down	37:30			Outside nest box
+3628	M4208_ch1_main_20170608123705_20170608124354	2017-06-07	Center	2017-06-08 12:37:05	2017-06-08 12:43:54	Mother (Medusa)	Travelling (moving outside nest box)	05:00	6:35	6:44	Outside nest box
+3122	M4208_ch3_main_20170607091443_20170607091727	2017-06-06	Nest Box Z	2017-06-07 09:14:43	2017-06-07 09:17:27	Mother (Medusa)	Mouth auto-grooming		1:55	2:10	Inside nest box
+4143	M4208_ch2_main_20170608134513_20170608142000	2017-06-07	Nest Box X	2017-06-08 13:45:13	2017-06-08 14:20:00	Mother (Medusa)	Mother		Yes	Out of Sight	
+3061	M4208_ch3_main_20170607085412_20170607090218	2017-06-06	Nest Box Z	2017-06-07 08:54:12	2017-06-07 09:02:18	Mother (Medusa)	Hand auto-grooming		7:22	7:26	Inside nest box
+4136	M4208_ch2_main_20170608124826_20170608130534	2017-06-07	Nest Box X	2017-06-08 12:48:26	2017-06-08 13:05:34	Mother (Medusa)	Mother		No		
+4148	M4208_ch2_main_20170608142101_20170608144629	2017-06-07	Nest Box X	2017-06-08 14:21:01	2017-06-08 14:46:29	Mother (Medusa)	Mother		Yes	Out of Sight	
+4138	M4208_ch2_main_20170608130550_20170608132209	2017-06-07	Nest Box X	2017-06-08 13:05:50	2017-06-08 13:22:09	Mother (Medusa)	Mother		No		
+5339	M4208_ch2_main_20170609154007_20170609160000	2017-06-08	Nest Box X	2017-06-09 15:40:07	2017-06-09 16:00:00	Mother (Medusa)	Mother	none	No		
+6145	M4208_ch3_main_20170609200000_20170609202116	2017-06-08	Nest Box Z	2017-06-09 20:00:00	2017-06-09 20:21:16	Mother (Medusa)	Travelling (moving outside nest box)	15:00			Outside nest box
+5800	M4208_ch2_main_20170609190246_20170609192556	2017-06-08	Nest Box X	2017-06-09 19:02:46	2017-06-09 19:25:56	Mother (Medusa)	Moving (inside nest box)	20:00			Inside nest box
+3122	M4208_ch3_main_20170607091443_20170607091727	2017-06-06	Nest Box Z	2017-06-07 09:14:43	2017-06-07 09:17:27	Mother (Medusa)	Hand auto-grooming		2:10	2:20	Inside nest box
+5490	M4208_ch2_main_20170609174607_20170609180635	2017-06-08	Nest Box X	2017-06-09 17:46:07	2017-06-09 18:06:35	Mother (Medusa)	Moving (inside nest box)	05:00			Inside nest box
+3061	M4208_ch3_main_20170607085412_20170607090218	2017-06-06	Nest Box Z	2017-06-07 08:54:12	2017-06-07 09:02:18	Mother (Medusa)	Hand auto-grooming		7:35	7:39	Inside nest box
+5800	M4208_ch2_main_20170609190246_20170609192556	2017-06-08	Nest Box X	2017-06-09 19:02:46	2017-06-09 19:25:56	Mother (Medusa)	Hand allo-grooming		17:25	17:47	Inside nest box
+4143	M4208_ch2_main_20170608134513_20170608142000	2017-06-07	Nest Box X	2017-06-08 13:45:13	2017-06-08 14:20:00	Mother (Medusa)	Yes	Out of Sight			Outside nest box
+4148	M4208_ch2_main_20170608142101_20170608144629	2017-06-07	Nest Box X	2017-06-08 14:21:01	2017-06-08 14:46:29	Mother (Medusa)	Yes	Out of Sight			Outside nest box
+5800	M4208_ch2_main_20170609190246_20170609192556	2017-06-08	Nest Box X	2017-06-09 19:02:46	2017-06-09 19:25:56	Mother (Medusa)	Mouth allo-grooming		18:17	18:36	Inside nest box
+5800	M4208_ch2_main_20170609190246_20170609192556	2017-06-08	Nest Box X	2017-06-09 19:02:46	2017-06-09 19:25:56	Mother (Medusa)	Mouth allo-grooming		18:40	18:58	Inside nest box

@@ -1,0 +1,21 @@
+behavior	Jun6	Jun7	Jun8	agg
+Carrying (mother)	0	0	0	0
+Constructing Nest	0	0	0	0
+Drinking	0	0	0	0
+Feeding (mother)	0	426	71	497
+Foot allo-grooming	0	0	0	0
+Foot auto-grooming	22	89	23	134
+Foraging (mother)	0	7	0	7
+Hand allo-grooming	0	0	23	23
+Mouth allo-grooming	5	0	39	44
+Hand auto-grooming	644	101	6	751
+Mouth auto-grooming	245	22	9	276
+Moving (inside nest box)	0	0	0	0
+Nursing (infant)	85	0	0	85
+Observing	0	0	11	11
+Playing	0	0	0	0
+Resting	16	0	648	664
+Sleeping	2337	0	3695	6032
+Travelling (moving outside nest box)	1861	121	0	1982
+Uncertain	490	14	678	1182
+Unknown	80695	85620	81197	247512
