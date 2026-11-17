@@ -1,5 +1,7 @@
 ### Aim 2: Identify differences in behavior across the three days
-### (I)  Pairwise comparisons of proportions (Fisher's Exact Test)
+### (I)  Pairwise comparisons of proportions
+###         (A) chi-square test of homogeneity
+###         (A) Fisher's exact test
 ### (II) Per-action comparisons
 ###         (A) two-sample Z tests for proportions
 ###         (B) relative proportion fold-change
@@ -31,13 +33,20 @@ for (d in DATES) {
 combns = combn(DATES, m = 2)
 pairs = paste(combns[1, ], combns[2, ], sep = ".v.")
 
-# ===== Fisher's Exact Test ===== #
+# ===== Overall Distributions ===== #
 
 # significance
 alpha = 0.05
-sig.fet = alpha / length(DATES)
+sig.dist = alpha / length(DATES)
 
-ft.res = data.frame(pair = pairs, row.names = pairs)
+dist.res = data.frame(
+    pair = pairs, 
+    chisq.stat = numeric(length(pairs)),
+    chisq.df = numeric(length(pairs)),
+    chisq.pval = numeric(length(pairs)),
+    fishers.pval = numeric(length(pairs)),
+    row.names = pairs
+)
 
 # for each pair of days:
 for (i in 1:ncol(combns)) {
@@ -47,14 +56,21 @@ for (i in 1:ncol(combns)) {
     # contingency table
     cont.table = as.matrix(budget[, c(d1, d2)])
 
-    # test
+    # (A) Chi-square test of homogeneity
+    x2 = chisq.test(cont.table[rowSums(cont.table) > 0, ])
+    dist.res[pairs[i], "chisq.stat"] = x2$statistic
+    dist.res[pairs[i], "chisq.df"] = x2$parameter
+    dist.res[pairs[i], "chisq.pval"] = x2$p.value
+    x2$p.value
+
+    # (B) Fisher's Exact Test
     ft = fisher.test(cont.table, simulate.p.value = TRUE, B = 1e4)
-    ft.res[pairs[i], "fishers"] = ft$p.value
+    dist.res[pairs[i], "fishers.pval"] = ft$p.value
 }
 
 # save results
-ft.path = paste(anal.dir, "aim2_fishers.tsv", sep = "/")
-write.table(ft.res, file = ft.path, quote = FALSE, sep = "\t", row.names = FALSE)
+dist.path = paste(anal.dir, "aim2_chisq_fishers.tsv", sep = "/")
+write.table(dist.res, file = dist.path, quote = FALSE, sep = "\t", row.names = FALSE)
 
 # ===== Per Action ===== #
 
@@ -68,7 +84,7 @@ for (i in 1:ncol(combns)) {
     r = pairs[i]
 
     # not significantly different
-    if (ft.res[r, "fishers"] >= sig.fet) {
+    if (dist.res[r, "chisq.pval"] >= sig.dist) {
         next
     }
 
@@ -99,29 +115,3 @@ for (i in 1:ncol(combns)) {
 # save results
 results.path = paste(anal.dir, "aim2_ztests_foldchange.tsv", sep = "/")
 write.table(budget, file = results.path, quote = FALSE, sep = "\t", row.names = FALSE)
-
-# ===== Results ===== #
-
-# p-value
-m = nrow(ft.res[ft.res$fishers < sig.fet, ]) * nrow(budget)
-sig.z = alpha / m
-
-# fold-change
-fc.th = 1.5
-sig.fc = log2(fc.th)
-
-# for each pair:
-for (i in 1:ncol(combns)) {
-
-    # not significantly different
-    if (ft.res[pairs[i], "fishers"] >= sig.fet) {
-        next
-    }
-
-    file.name = paste("aim2_significant_", pairs[i], ".tsv", sep = "")
-    get.significant(
-        budget, set = pairs[i], groups = combns[, i], 
-        sig.p = sig.z, sig.fc = sig.fc, 
-        out.path = paste(anal.dir, file.name, sep = "/")
-    )
-}
