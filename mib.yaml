@@ -1,0 +1,14 @@
+name: mib
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.14.7
+  - pandas=3.1.1
+  - numpy=2.5.4
+  - matplotlib=3.11.2
+  - scikit-posthocs=0.17.1
+  - r-base=4.5.3
+  - r-essentials=4.5
+  - r-this.path=2.8.0
