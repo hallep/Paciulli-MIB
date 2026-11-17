@@ -1,0 +1,86 @@
+### Aim 1: Identify enriched maternal behaviors for each day
+### Compare each day to the total
+###     (A) two-sample Z tests for proportions
+###     (B) relative proportion fold-change
+
+library(this.path)
+proj.dir = dirname(this.dir())
+
+source(paste(proj.dir, "scripts/mib/utils/hypotheses.R", sep = "/"))
+
+# Output Directory
+anal.dir = paste(proj.dir, "analysis", "aim1", sep = "/")
+if (! dir.exists(anal.dir)) {
+    dir.create(anal.dir, recursive = TRUE)
+}
+
+dates = paste("Jun", 6:8, sep = "")
+
+# ===== Data ===== #
+budget.path = paste(proj.dir, "data/budgets/MIB_Agatha_budgets_seconds.tsv", sep = "/")
+budget = read.csv(budget.path, header = TRUE, sep = "\t")
+rownames(budget) = budget$behavior
+
+# proportions
+for (d in dates) {
+    budget[, paste("prop", d, sep = ".")] = budget[, d] / sum(budget[, d])
+}
+budget$prop.agg = budget$agg / sum(budget$agg)
+
+# ===== Run Tests ===== #
+
+# pseudocounts
+pseudo = 1e-12
+
+# for each day:
+for (d in dates) {
+
+    cP = paste("pval", d, sep = ".")
+    cLP = paste("nlogp", d, sep = ".")
+    cFC = paste("fc", d, sep = ".")
+    cLFC = paste("logfc", d, sep = ".")
+
+    # for each behavior:
+    for (b in rownames(budget)) {
+        
+        x = c(budget[b, d], budget[b, "agg"])
+        n = c(sum(budget[, d]), sum(budget[, "agg"]))
+        p = x / n
+
+        # (A) Z-test
+        ztest = prop.test(x = x, n = n, alternative = "two.sided", correct = FALSE)
+        budget[b, paste("zscore", d, sep = ".")] = sqrt(ztest$statistic)
+        budget[b, cP] = ztest$p.value
+
+        # (B) Fold-change
+        budget[b, cFC] = (p[1] + pseudo) / (p[2] + pseudo)
+    }
+
+    budget[, cLP] = - log10(budget[, cP])
+    budget[, cLFC] = log2(budget[, cFC])
+}
+
+# save results
+results.path = paste(anal.dir, "aim1.tsv", sep = "/")
+write.table(budget, file = results.path, quote = FALSE, sep = "\t", row.names = FALSE)
+
+# ===== Results ===== #
+
+# p-value
+alpha = 0.05
+m = nrow(budget) * length(dates)
+sig.p = alpha / m
+
+# fold-change
+fc.th = 1.5
+sig.fc = log2(fc.th)
+
+# for each day:
+for (d in dates) {
+    file.name = paste("aim1_significant_", d, ".tsv", sep = "")
+    get.significant(
+        budget, set = d, groups = c(d, "agg"), 
+        sig.p = sig.p, sig.fc = sig.fc, 
+        out.path = paste(anal.dir, file.name, sep = "/")
+    )
+}
