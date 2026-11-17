@@ -1,0 +1,52 @@
+Data Cleaning
+
+##### (0) Input Data #####
+* Total: 2 days 23:58:44
+    - 6,245 entries
+    - 2,867 videos
+    - 3,321 actions
+
+##### (1) Video Filtering #####
+* Valid video times: 2 days 23:58:44
+    - 6,223 entries
+    - 2,911 videos
+    - 3,316 actions
+* Invalid video times:
+    - 22 entries
+
+##### (2) Coding Filtering #####
+* Coding agreement: 2 days 23:39:02
+    - 5,071 entries
+    - 2,343 videos
+    - 1,902 actions
+* Discarded: 0 days 00:19:42
+    - Coding unknown: 174 entries
+    - Coding disagreement: 978 entries
+
+##### (3) Observed Filtering #####
+* FA seen: 1 days 05:37:08
+    - 1,530 entries
+    - 1,530 videos
+    - 738 actions
+* FA not seen: 1 days 18:01:54
+    - 813 videos
+
+##### (4) Behaviors #####
+* Specified actions:
+    - 454 videos (0 days 23:17:20)
+    - 586 actions
+* No actions: 
+    - 1,076 videos (0 days 06:19:48)
+
+##### (5) Action Filtering #####
+* Valid actions:
+    - 127 actions (0 days 02:53:15)
+    - 91 videos (0 days 04:20:17)
+* Discarded: 0 days 18:57:03
+    - 'Out of Sight': 73 actions, 73 videos
+    - Invalid times: 386 actions, 329 videos
+
+##### (6) Interval Splitting #####
+* Non-overlapping intervals:
+    - 128 actions (0 days 02:52:59)
+    - 91 videos (0 days 04:20:17)

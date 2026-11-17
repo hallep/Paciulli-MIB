@@ -1,0 +1,10 @@
+	6	6	6	7	7	7	8	8	8
+	Center	Nest Box X	Nest Box Z	Center	Nest Box X	Nest Box Z	Center	Nest Box X	Nest Box Z
+all_entries	865	1031	1644	474	252	272	112	1235	360
+valid_entries	863	1025	1641	474	251	272	112	1229	356
+coding_agreement_entries	697	861	1248	290	219	249	109	1074	324
+coding_agreement_videos	380	405	591	137	115	94	48	374	199
+fa_seen_videos	350	288	523	84	25	2	0	257	1
+all_actions	149	120	172	31	33	2	0	77	2
+valid_actions	6	3	74	26	1	0	0	17	0
+non_overlapping_actions	6	3	75	26	1	0	0	17	0
