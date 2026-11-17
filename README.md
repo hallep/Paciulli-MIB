@@ -74,6 +74,9 @@ python scripts/06-supplementary.py
 ```
 
 ### Updating Inputs
-To apply analyses to new data, update values in `scripts/mib/utils/constants.py`:
-* Data sources: `XLSX_FILES`, `DATA_TABS`, `CODE_TABS`, `DAYS`
-* Formatting (for figures): `BEHAVIORS`, `DAY_PALETTE`, `PAIR_PALETTE`
+To apply analyses to new data, update values:
+* `scripts/mib/utils/constants.py`
+    * Data sources: `XLSX_FILES`, `DATA_TABS`, `CODE_TABS`, `DAYS`
+    * Formatting (for figures): `BEHAVIORS`, `DAY_PALETTE`, `PAIR_PALETTE`
+* `scripts/01-aim1.R`: `DATES`
+* `scripts/02-aim2.R`: `DATES`

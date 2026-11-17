@@ -15,7 +15,7 @@ if (! dir.exists(anal.dir)) {
     dir.create(anal.dir, recursive = TRUE)
 }
 
-dates = paste("Jun", 6:8, sep = "")
+DATES = paste("Jun", 6:8, sep = "")
 
 # ===== Data ===== #
 budget.path = paste(proj.dir, "data/budgets/MIB_Agatha_budgets_seconds.tsv", sep = "/")
@@ -23,19 +23,19 @@ budget = read.csv(budget.path, header = TRUE, sep = "\t")
 rownames(budget) = budget$behavior
 
 # proportions
-for (d in dates) {
+for (d in DATES) {
     budget[, paste("prop", d, sep = ".")] = budget[, d] / sum(budget[, d])
 }
 
 # pairwise comparisons
-combns = combn(dates, m = 2)
+combns = combn(DATES, m = 2)
 pairs = paste(combns[1, ], combns[2, ], sep = ".v.")
 
 # ===== Fisher's Exact Test ===== #
 
 # significance
 alpha = 0.05
-sig.fet = alpha / length(dates)
+sig.fet = alpha / length(DATES)
 
 ft.res = data.frame(pair = pairs, row.names = pairs)
 

@@ -14,7 +14,7 @@ if (! dir.exists(anal.dir)) {
     dir.create(anal.dir, recursive = TRUE)
 }
 
-dates = paste("Jun", 6:8, sep = "")
+DATES = paste("Jun", 6:8, sep = "")
 
 # ===== Data ===== #
 budget.path = paste(proj.dir, "data/budgets/MIB_Agatha_budgets_seconds.tsv", sep = "/")
@@ -22,7 +22,7 @@ budget = read.csv(budget.path, header = TRUE, sep = "\t")
 rownames(budget) = budget$behavior
 
 # proportions
-for (d in dates) {
+for (d in DATES) {
     budget[, paste("prop", d, sep = ".")] = budget[, d] / sum(budget[, d])
 }
 budget$prop.agg = budget$agg / sum(budget$agg)
@@ -33,7 +33,7 @@ budget$prop.agg = budget$agg / sum(budget$agg)
 pseudo = 1e-12
 
 # for each day:
-for (d in dates) {
+for (d in DATES) {
 
     cP = paste("pval", d, sep = ".")
     cLP = paste("nlogp", d, sep = ".")
@@ -68,7 +68,7 @@ write.table(budget, file = results.path, quote = FALSE, sep = "\t", row.names = 
 
 # p-value
 alpha = 0.05
-m = nrow(budget) * length(dates)
+m = nrow(budget) * length(DATES)
 sig.p = alpha / m
 
 # fold-change
@@ -76,7 +76,7 @@ fc.th = 1.5
 sig.fc = log2(fc.th)
 
 # for each day:
-for (d in dates) {
+for (d in DATES) {
     file.name = paste("aim1_significant_", d, ".tsv", sep = "")
     get.significant(
         budget, set = d, groups = c(d, "agg"), 
