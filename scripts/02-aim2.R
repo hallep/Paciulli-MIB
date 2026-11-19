@@ -126,11 +126,9 @@ write.table(budget, file = results.path, quote = FALSE, sep = "\t", row.names = 
 
 # p-value
 m = nrow(dist.res[dist.res$chisq.pval < sig.dist, ]) * nrow(budget)
-sig.z = alpha / m
 
 # fold-change
 fc.th = 1.5
-sig.fc = log2(fc.th)
 
 # for each pair:
 for (i in 1:ncol(combns)) {
@@ -143,7 +141,7 @@ for (i in 1:ncol(combns)) {
     file.name = paste("aim2_significant_", pairs[i], ".tsv", sep = "")
     get.significant(
         budget, set = pairs[i], groups = combns[, i], 
-        sig.p = sig.z, sig.fc = sig.fc, 
+        sig.nlogp = -log10(alpha / m), sig.logfc = log2(fc.th), 
         out.path = paste(anal.dir, file.name, sep = "/")
     )
 }

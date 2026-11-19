@@ -69,18 +69,16 @@ write.table(budget, file = results.path, quote = FALSE, sep = "\t", row.names = 
 # p-value
 alpha = 0.05
 m = nrow(budget) * length(DATES)
-sig.p = alpha / m
 
 # fold-change
 fc.th = 1.5
-sig.fc = log2(fc.th)
 
 # for each day:
 for (d in DATES) {
     file.name = paste("aim1_significant_", d, ".tsv", sep = "")
     get.significant(
         budget, set = d, groups = c(d, "agg"), 
-        sig.p = sig.p, sig.fc = sig.fc, 
+        sig.nlogp = -log10(alpha / m), sig.logfc = log2(fc.th), 
         out.path = paste(anal.dir, file.name, sep = "/")
     )
 }
