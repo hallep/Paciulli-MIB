@@ -4,9 +4,7 @@ from mib.external import pd, plt
 from mib.utils.interest import *
 
 def get_color(yvals:pd.Series, adj:dict[str, bool]) -> str:
-    ''' 
-    Get color based on monotonicity
-    '''
+    ''' Get color based on monotonicity '''
 
     vals = yvals.copy()
 
@@ -29,9 +27,7 @@ def get_color(yvals:pd.Series, adj:dict[str, bool]) -> str:
 def draw_trend(ax:plt.Axes, name:str, nx:float, yvals:pd.Series, clds:pd.Series,
                adj:dict[int, bool], sets:list[str], palette:dict[str, tuple[str, str]], 
                labely:bool=False):
-    ''' 
-    Draw longitudinal change
-    '''
+    ''' Plot longitudinal change '''
 
     color = get_color(yvals, adj)
 

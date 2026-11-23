@@ -3,7 +3,7 @@ Data Cleaning
 ##### (0) Input Data #####
 * Total: 2 days 23:58:44
     - 6,245 entries
-    - 2,867 videos
+    - 2,922 videos
     - 3,321 actions
 
 ##### (1) Video Filtering #####
@@ -40,7 +40,7 @@ Data Cleaning
 
 ##### (5) Action Filtering #####
 * Valid actions:
-    - 127 actions (0 days 02:53:15)
+    - 127 actions (0 days 02:55:21)
     - 91 videos (0 days 04:20:17)
 * Discarded: 0 days 18:57:03
     - 'Out of Sight': 73 actions, 73 videos
@@ -48,5 +48,5 @@ Data Cleaning
 
 ##### (6) Interval Splitting #####
 * Non-overlapping intervals:
-    - 128 actions (0 days 02:52:59)
+    - 128 actions (0 days 02:55:06)
     - 91 videos (0 days 04:20:17)

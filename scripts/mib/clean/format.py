@@ -112,9 +112,7 @@ def fmt_entry_filename(x:pd.Series, name_db:pd.DataFrame) -> str:
     return np.nan
 
 def fmt_action_time(x:pd.Series, col:str) -> pd.Timestamp:
-    '''
-    Convert entry *col* in Series *x* from string to Timestamp
-    '''
+    ''' Convert entry *col* in Series *x* from string to Timestamp '''
     
     timecode = str(x[col])
 

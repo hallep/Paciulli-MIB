@@ -5,7 +5,7 @@ from mib.utils.constants import BEHAVIORS
 
 # Significant Results
 def get_significant(data:pd.DataFrame, sets:list[str], nlogp_thresh:float, logfc_thresh:float) -> pd.DataFrame:
-    
+    ''' Isolate significant results '''
     # stack sets
     signif = pd.concat(
         [data[["behavior", f"{s}.nlogp", f"{s}.logfc"]].rename(
@@ -26,7 +26,8 @@ def get_significant(data:pd.DataFrame, sets:list[str], nlogp_thresh:float, logfc
 
 # Compact Letter Display
 def get_cld(data:pd.DataFrame, sets:list, nlogp_thresh:float, logfc_thresh:float) -> tuple[pd.DataFrame, dict[str, list[bool]]]:
-    
+    ''' Get compact letter display for multiple tests '''
+
     m = len(sets)
     clds = {}
     adj = {}

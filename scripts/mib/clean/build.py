@@ -5,10 +5,8 @@ from mib.utils.constants import *
 from mib.clean.format import FILENAME_REGEX, clean_filename, fmt_entry_filename
 from mib.clean.overlap import merge_overlapping
 
-def compile_entries(xlsx_dict:dict[int, dict[str, pd.DataFrame]], name_db:pd.DataFrame) -> pd.DataFrame:
-    '''
-    Compile data from all days and cameras
-    '''
+def compile_entries(xlsx_dict:dict[int, dict[str, pd.DataFrame]], code_df:pd.DataFrame) -> pd.DataFrame:
+    ''' Compile data from all days and cameras '''
 
     df = pd.concat([
         pd.concat([xlsx_dict[d][s] for s in DATA_TABS[d]], 
@@ -22,6 +20,7 @@ def compile_entries(xlsx_dict:dict[int, dict[str, pd.DataFrame]], name_db:pd.Dat
                   df["day"].astype(str).str.rjust(2, "0")).apply(pd.to_datetime)
 
     # filename
+    name_db = build_filename_db(code_df)
     df["video_file"] = df.apply(lambda x: fmt_entry_filename(x, name_db), axis=1)
 
     # get video start/end times
@@ -39,9 +38,7 @@ def compile_entries(xlsx_dict:dict[int, dict[str, pd.DataFrame]], name_db:pd.Dat
     return df
 
 def compile_codes(xlsx_dict:dict[int, dict[str, pd.DataFrame]]) -> pd.DataFrame:
-    '''
-    Compile coding agreement data
-    '''
+    ''' Compile coding agreement data '''
 
     code_df = pd.concat([
         pd.concat([xlsx_dict[d][s] for s in CODE_TABS[d]], 
@@ -57,24 +54,29 @@ def compile_codes(xlsx_dict:dict[int, dict[str, pd.DataFrame]]) -> pd.DataFrame:
     return code_df[code_df["video_index"].str.lower() != "total"].dropna(subset=["Video_File_Name"])
 
 def process_codes(code_df:pd.DataFrame) -> pd.DataFrame:
-    '''
-    Get unique videos with specified codes
-    '''
+    ''' Get unique videos with specified codes '''
 
     # subset
     codes = code_df.dropna(subset=["Agree", "One Coder", "Disagree"], how="all")
-    codes = codes[["video_index", "Video_File_Name", "Agree", "One Coder", "Disagree"]]
 
     # remove duplicates
-    uniq = codes.groupby("video_index").aggregate({"Agree" : "sum", "One Coder" : "sum", "Disagree" : "sum", "Video_File_Name" : ",".join})
-    uniq["code"] = uniq.apply(lambda x: 0 if (x["Disagree"] > 0) else 1 if (x["One Coder"] > 0) else 2 if (x["Agree"] > 0) else -1, axis=1)
+    uniq = codes.groupby(["year", "month", "day", "camera", "video_index"]).aggregate({
+        "Agree" : "sum", 
+        "One Coder" : "sum", 
+        "Disagree" : "sum", 
+        "Video_File_Name" : ",".join
+    })
 
-    return uniq
+    uniq["code"] = uniq.apply(
+        lambda x: 0 if (x["Disagree"] > 0) else 
+            1 if (x["One Coder"] > 0) else 
+            2 if (x["Agree"] > 0) else -1, axis=1
+    )
+
+    return uniq[["Video_File_Name", "code"]]
 
 def build_filename_db(code_df:pd.DataFrame) -> pd.DataFrame:
-    '''
-    Build a reference database of valid filenames
-    '''
+    ''' Build a reference database of valid filenames '''
 
     name_db = code_df[code_df["video_index"].str.fullmatch(fr"{FILENAME_REGEX}(\.asf)?")][["video_index"]]
     name_db = name_db.drop_duplicates()
@@ -87,9 +89,7 @@ def build_filename_db(code_df:pd.DataFrame) -> pd.DataFrame:
     return name_db
 
 def extract_actions(dfE:pd.DataFrame) -> pd.DataFrame:
-    '''
-    Extract distinct actions from entries in *dfE*
-    '''
+    ''' Extract distinct actions from entries in *dfE* '''
 
     obsStart, = np.where(dfE.columns.str.startswith("Which action?"))
 
@@ -113,7 +113,8 @@ def extract_actions(dfE:pd.DataFrame) -> pd.DataFrame:
 
 def create_budget(dfA:pd.DataFrame, dfValid:pd.DataFrame, dfAgree:pd.DataFrame) -> pd.DataFrame:
     '''
-    Create time budgets from actions (*dfA*), valid entries (*dfValid*), and entries in agreement (*dfAgree*)
+    Create time budgets from actions (*dfA*), 
+    valid entries (*dfValid*), and entries in agreement (*dfAgree*)
     '''
 
     def split_by_days(df:pd.DataFrame, colS:str, colE:str) -> dict[int, pd.Timestamp]:

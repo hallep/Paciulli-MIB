@@ -17,30 +17,27 @@ xlsx_dict = {k : pd.read_excel(v, sheet_name=None) for k,v in XLSX_FILES.items()
 
 code_df = compile_codes(xlsx_dict)
 uniq = process_codes(code_df)
-uniq[["Video_File_Name", "code"]].to_csv(f"{PROJECT_DIR}/data/cleaned/MIB_Agatha_observations_video_coding.tsv", sep="\t")
-
-# valid filenames
-name_db = build_filename_db(code_df)
+uniq.to_csv(f"{PROJECT_DIR}/data/cleaned/MIB_Agatha_observations_video_coding.tsv", sep="\t")
 
 # ===== Observations ===== #
 
-df0 = compile_entries(xlsx_dict, name_db)
+df0 = compile_entries(xlsx_dict, code_df)
+df0["code_idx"] = df0.apply(lambda x: clean_filename(x["Video_File_Name"], x["year"], x["month"], x["day"], x["camera"]), axis=1)
 df0.to_csv(f"{PROJECT_DIR}/data/cleaned/MIB_Agatha_observations_v0_raw.tsv", sep="\t", index=False)
 
 # ----- Filter Entries ----- #
 
 # specified start/end time AND valid time range
 df1 = df0[df0["video_start_time"].notna() & df0["video_end_time"].notna() & (df0["video_start_time"] < df0["video_end_time"])]
-df1["code_idx"] = df1.apply(lambda x: clean_filename(x["Video_File_Name"], x["year"], x["month"], x["day"], x["camera"]), axis=1)
 df1.to_csv(f"{PROJECT_DIR}/data/cleaned/MIB_Agatha_observations_v1_valid_entries.tsv", sep="\t", index=False)
 
 # ----- Filter Videos ----- #
 
-dfV = df1[df1["code_idx"].isin(uniq.index.values)]
+dfV = df1[df1["code_idx"].isin(uniq.index.get_level_values("video_index"))]
 dfV.to_csv(f"{PROJECT_DIR}/data/cleaned/MIB_Agatha_observations_v2a_coding_known.tsv", sep="\t", index=False)
 
 # 1 coder OR coding agreement
-dfAgree = dfV[dfV["code_idx"].isin(uniq[uniq["code"] > 0].index.values)]
+dfAgree = dfV[dfV["code_idx"].isin(uniq[uniq["code"] > 0].index.get_level_values("video_index"))]
 dfAgree.to_csv(f"{PROJECT_DIR}/data/cleaned/MIB_Agatha_observations_v2b_coding_agreement_entries.tsv", sep="\t", index=False)
 
 df2 = dfAgree.sort_values("Is the Focal Animal seen?", ascending=False).drop_duplicates(subset="code_idx")
@@ -57,6 +54,7 @@ df4.to_csv(f"{PROJECT_DIR}/data/cleaned/MIB_Agatha_observations_v4_all_actions.t
 
 # ----- Filter Actions ----- #
 
+# remove missing, null, or invalid data type
 df5 = df4[(df4["action"] != "Out of Sight") & 
           df4["action_start_timecode"].notna() & df4["action_end_timecode"].notna() &
           df4["action_start_timecode"].apply(lambda x: not any(c.isalpha() for c in str(x))) &
@@ -64,6 +62,8 @@ df5 = df4[(df4["action"] != "Out of Sight") &
 
 df5["action_start_time"] = df5.apply(lambda x: fmt_action_time(x, "action_start_timecode"), axis=1)
 df5["action_end_time"] = df5.apply(lambda x: fmt_action_time(x, "action_end_timecode"), axis=1)
+
+# remove invalid times
 df5 = df5[(df5["action_start_time"] <= df5["action_end_time"]) &
           (df5["video_start_time"] <= df5["action_start_time"]) &
           (df5["video_end_time"] >= df5["action_end_time"])].drop(

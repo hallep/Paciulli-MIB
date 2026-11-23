@@ -65,13 +65,13 @@ def process_action(df:pd.DataFrame) -> tuple[pd.DataFrame, int, pd.Timedelta, in
     nActions = len(df)
     
     if ("action_start_time" in df.columns) and ("action_end_time" in df.columns):
-        aLengths = (df["action_end_time"] - df["action_start_time"]).sum() + pd.Timedelta(seconds=1)
+        aLengths = (df["action_end_time"] - df["action_start_time"] + pd.Timedelta(seconds=1)).sum()
     else:
         aLengths = pd.NaT
 
     return dfM, nVideos, vLengths, nActions, aLengths
 
-dfM0, ne0, nv0, vl0, na0 = process_video(df0, "video_file")
+dfM0, ne0, nv0, vl0, na0 = process_video(df0)
 dfM1, ne1, nv1, vl1, na1 = process_video(df1)
 dfM2, ne2, nv2, vl2, na2 = process_video(dfAgree)
 dfM3, ne3, nv3, vl3, na3 = process_video(df3)
@@ -171,3 +171,15 @@ s4.columns.names = [None, None]
 s4.index.name = "filter"
 
 s4.to_csv(f"{PROJECT_DIR}/analysis/supplement/table_S4.tsv", sep="\t")
+
+# ----- Table S5 ----- #
+
+dfCode = pd.read_csv(f"{PROJECT_DIR}/data/cleaned/MIB_Agatha_observations_video_coding.tsv", sep="\t")
+s5 = dfCode.drop_duplicates(subset=["video_index"]).groupby(
+    ["year", "month", "day", "camera"]
+)["code"].value_counts().unstack().rename(columns={
+    0 : "disagree",
+    1 : "one_coder",
+    2 : "agree"
+}).reset_index()
+s5.to_csv(f"{PROJECT_DIR}/analysis/supplement/table_S5.tsv", sep="\t", index=False)
