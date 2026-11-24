@@ -14,7 +14,7 @@ This is approached through two main aims:
 2. To identify differences in behavior across the three days
 
 All raw data, intermediate files, final outputs, and scripts are included in this repository:
-* Raw data is located in `data/raw`
+* Raw data (de-identified) is located in `data/raw`
 * Cleaned and processed data are in `data/cleaned` and `data/budgets`, respectively
 * Results from statistical tests are in `analysis/aim1` and `analysis/aim2`
 * Main figures are in `analysis/figures`
